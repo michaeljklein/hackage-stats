@@ -1,6 +1,8 @@
 # hackage-stats
 Haskell stats and graphs
 
+## Connectivity graph
+
 Hackage connectivity graph in:
 - [Gephi](https://github.com/michaeljklein/hackage-stats/blob/master/graph6.gephi)
 - [Mathematica](https://github.com/michaeljklein/hackage-stats/blob/master/mathematica_graph.txt)
@@ -10,6 +12,8 @@ Hackage connectivity graph in:
 
 ![Hackage Packages][graph6.1]
 
+
+## Other graphs
 
 ![Percent depended on 1](https://github.com/michaeljklein/hackage-stats/raw/master/images/Percent%20depended%20on1.png)
 
@@ -22,3 +26,19 @@ Hackage connectivity graph in:
 ![Size vs. # Dependencies](https://github.com/michaeljklein/hackage-stats/blob/master/images/size%20vs%20numdeps.png)
 
 [graph6.1]: https://github.com/michaeljklein/hackage-stats/blob/master/images/graph6.1.png "Hackage Packages"
+
+
+## Data
+
+https://github.com/michaeljklein/hackage-stats/tree/master/data
+
+
+## Haskell code
+
+https://github.com/michaeljklein/hackage-stats/tree/master/hackage-info
+
+
+## Notes
+
+
+
