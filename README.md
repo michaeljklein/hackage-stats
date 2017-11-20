@@ -35,10 +35,13 @@ https://github.com/michaeljklein/hackage-stats/tree/master/data
 
 ## Haskell code
 
-https://github.com/michaeljklein/hackage-stats/tree/master/hackage-info
+The main Haskell code may be found [here](https://github.com/michaeljklein/hackage-stats/tree/master/hackage-info)
+
+[Haddock documentation](https://michaeljklein.github.io/hackage-stats/docs/index.html)
 
 
 ## Notes
 
+[Scraping notes](https://github.com/michaeljklein/hackage-stats/blob/master/notes.md)
 
 
