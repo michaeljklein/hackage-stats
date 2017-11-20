@@ -49,6 +49,7 @@ executable hackage-graph
   main-is:             Main.hs
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   build-depends:       base
+                     , containers
                      , hackage-info
                      , lens
                      , text
