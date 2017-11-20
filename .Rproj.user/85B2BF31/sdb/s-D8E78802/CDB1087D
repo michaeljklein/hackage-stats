@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1465265733594.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CDB1087D",
+    "lastKnownWriteTime" : 111550524582144,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "r9vlc3ti2r",
+        "caption" : "gh2",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=gh2&cache_key=r9vlc3ti2r",
+        "displayedObservations" : "3787",
+        "environment" : "",
+        "object" : "gh2",
+        "totalObservations" : "3787",
+        "variables" : "3"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
