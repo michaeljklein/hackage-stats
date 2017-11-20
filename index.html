@@ -44,7 +44,9 @@ var md = requirejs(['markdownit'])({
 var client = new XMLHttpRequest();
 client.open('GET', '/README.md');
 client.onreadystatechange = function() {
-  alert(client.responseText);
+  var result = md.render(client.responseText);
+  document.getElementById("readme").innerText = result;
+  document.getElementById("readme").textContent = result;
 }
 client.send();
 
@@ -54,20 +56,13 @@ client.send();
   </head>
   <body bgcolor=white>
 
-    <table border="0" cellpadding="10">
-      <tr>
-        <td>
-          <h1>"Hello, World"</h1>
-        </td>
-      </tr>
-    </table>
-
-    <p>This is the home page for the HelloWorld Web application. </p>
-    <p>To prove that they work, you can execute either of the following links:
+    <p>This is the home page for Hackage-stats.</p>
     <ul>
       <li>To a <a href="docs/index.html">Docs page</a>.
-      <li>To a <a href="hello">servlet</a>.
     </ul>
+
+    <div id=readme></div>
+
 
   </body>
 </html>
