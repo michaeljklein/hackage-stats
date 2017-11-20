@@ -1,6 +1,9 @@
 # hackage-stats
 Haskell stats and graphs
 
+[![Build Status](https://travis-ci.org/michaeljklein/nil-passer.svg?branch=master)](https://travis-ci.org/michaeljklein/nil-passer)
+
+
 ## Connectivity graph
 
 Hackage connectivity graph in:
