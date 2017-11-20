@@ -1,0 +1,15 @@
++ read -n 1 -p 'Press enter to fresh-rebuild docs: '
+Press enter to fresh-rebuild docs:
++ rm -f docs/build.log
++ stack build --haddock --haddock-deps --haddock-internal '--haddock-arguments=-o ../docs'
++ tee -a ../docs/build.log
+Updating Haddock index for local packages in
+/Users/michaelklein/Coding/hackage-stats/.stack-work/install/x86_64-osx/lts-5.14/7.10.3/doc/index.html
+Updating Haddock index for local packages and dependencies in
+/Users/michaelklein/Coding/hackage-stats/.stack-work/install/x86_64-osx/lts-5.14/7.10.3/doc/all/index.html
+Haddock index for snapshot packages already up to date at:
+/Users/michaelklein/.stack/snapshots/x86_64-osx/lts-5.14/7.10.3/doc/index.html
+
+real	0m54.876s
+user	0m2.685s
+sys	0m0.700s
