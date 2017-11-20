@@ -1,0 +1,1720 @@
+
+==================== FINAL INTERFACE ====================
+2016-06-06 22:29:13.020837 UTC
+
+interface hacka_8AzqFXcXsXI1zCeqNUsPcm:Package [family instance module] 7103
+  interface hash: 8fb7531f85e8345ea109fc7bd0d3a789
+  ABI hash: 0e0bbc4265da232cf4cc3f17ec84b8dd
+  export-list hash: 1f621f444eb21da6858ea5feceb2328b
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: e52390b3a2bb30101e3a38d97dfc8fbb
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  Package.dependencies
+  Package.dropGithub
+  Package.github
+  Package.hasGithub
+  Package.isGithub
+  Package.name
+  Package.parsePackages
+  Package.repo
+  Package.toPackage
+  Package.toPackageName
+  Package.Package{Package.Package Package._dependencies Package._github Package._name Package._repo}
+module dependencies: Data.Repo
+package dependencies: StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      adjunctions-4.3@adjun_9cH29t7MfJW4aX0z24PvBh
+                      aeson-0.9.0.1@aeson_DFvprtDBUdB2suCwa7lgtv
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3 base-4.8.2.0
+                      base-orphans-0.5.4@baseo_0gFtKFBT26OGSKHmmdqdfx
+                      bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      comonad-4.2.7.2@comon_ANDyj4wNB0X1DshTxn1Ec7
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      contravariant-1.4@contr_GjopTtscFPI3wCyb9R8zUx
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      distributive-0.5.0.2@distr_55SIdsoyihS4jXBaaVvPQX
+                      dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui
+                      exceptions-0.8.2.1@excep_6lgwjdgwblY7rzh5s6SLd8
+                      free-4.12.4@free_6zsT0eU8oWW5hSQkbU0iac ghc-prim-0.4.0.0
+                      hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I integer-gmp-1.0.0.0
+                      kan-extensions-4.2.3@kanex_93YChxpKCPfJOIja4yoAht
+                      lens-4.13@lens_Ci1bEHnvDxuGKIIh54LOWH
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      prelude-extras-0.4.0.3@prelu_1gQpKVfMHul71LsAFgGRhv
+                      pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      profunctors-5.2@profu_3mp9Et5di2eBw26qSk1FvQ
+                      reflection-2.1.2@refle_Is9SiIf9zRHG2wDNDxPaS9
+                      scientific-0.3.4.6@scien_5s26qRhE5w04kI4pP1Rtwm
+                      semigroups-0.18.1@semig_G8J7ers5FBV50jV0jAmDo0
+                      semigroupoids-5.0.1@semig_GGZAZT6nvE937zJVPqetuF
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6 template-haskell-2.10.0.0
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      unordered-containers-0.2.5.1@unord_Kh4ayEkEku2Hr3yyCwld2j
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+orphans: aeson-0.9.0.1@aeson_DFvprtDBUdB2suCwa7lgtv:Data.Aeson.Types.Generic
+         aeson-0.9.0.1@aeson_DFvprtDBUdB2suCwa7lgtv:Data.Aeson.Types.Instances
+         attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3:Data.Attoparsec.ByteString.Char8
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         base-orphans-0.5.4@baseo_0gFtKFBT26OGSKHmmdqdfx:Data.Orphans
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I:Data.Hashable.Generic
+         reflection-2.1.2@refle_Is9SiIf9zRHG2wDNDxPaS9:Data.Reflection
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+family instance modules: adjunctions-4.3@adjun_9cH29t7MfJW4aX0z24PvBh:Data.Functor.Rep
+                         attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3:Data.Attoparsec.Internal.Types
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         base-4.8.2.0:GHC.TypeLits
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Biff
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Clown
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Flip
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Join
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Joker
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Product
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Sum
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Tannen
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Wrapped
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui:Data.DList
+                         hacka_8AzqFXcXsXI1zCeqNUsPcm:Data.Repo
+                         kan-extensions-4.2.3@kanex_93YChxpKCPfJOIja4yoAht:Data.Functor.Yoneda
+                         lens-4.13@lens_Ci1bEHnvDxuGKIIh54LOWH:Control.Lens.At
+                         lens-4.13@lens_Ci1bEHnvDxuGKIIh54LOWH:Control.Lens.Internal.Indexed
+                         lens-4.13@lens_Ci1bEHnvDxuGKIIh54LOWH:Control.Lens.Tuple
+                         pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         profunctors-5.2@profu_3mp9Et5di2eBw26qSk1FvQ:Data.Profunctor.Rep
+                         semigroups-0.18.1@semig_G8J7ers5FBV50jV0jAmDo0:Data.List.NonEmpty
+                         semigroups-0.18.1@semig_G8J7ers5FBV50jV0jAmDo0:Data.Semigroup
+                         tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6:Data.Tagged
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+                         unordered-containers-0.2.5.1@unord_Kh4ayEkEku2Hr3yyCwld2j:Data.HashMap.Base
+                         unordered-containers-0.2.5.1@unord_Kh4ayEkEku2Hr3yyCwld2j:Data.HashSet
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Primitive
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Storable
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed.Base
+import  -/  aeson-0.9.0.1@aeson_DFvprtDBUdB2suCwa7lgtv:Data.Aeson da66cb8f2b2fdb2aafcbaaa65fa7f5d3
+import  -/  aeson-0.9.0.1@aeson_DFvprtDBUdB2suCwa7lgtv:Data.Aeson.Types.Class 603192a71cea4e8347ea32097500c65c
+import  -/  base-4.8.2.0:Data.Foldable 2ce969969ad5231eb40bd713f94f05ad
+import  -/  base-4.8.2.0:Data.List 3f0782c8d4bf50eecefcd5ea1798aac8
+import  -/  base-4.8.2.0:Data.Maybe 1cb58de2b04ee3c0c0a7dc9201184aff
+import  -/  base-4.8.2.0:Data.OldList d8fd80b0e14aa085ce6219cd89dad356
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.Generics c00a6d11ff9e9cf35a82831f837d9e97
+import  -/  base-4.8.2.0:GHC.List 0c736920522bbd14b770342776012ab6
+import  -/  base-4.8.2.0:GHC.Show 0e1d8380a8fb0cfb07ebeda3b70cbf38
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  Data.Repo 4fee9d2c852c72dad1fa8108ad6fb8d0
+  exports: 6cc8b3770cd02ed4138cf74140c63958
+  Repo 31c23b448db69e48dcdd96d14eeb29f7
+import  -/  lens-4.13@lens_Ci1bEHnvDxuGKIIh54LOWH:Control.Lens.TH 58dcac9e6fc108b7db12806c76a302cb
+import  -/  lens-4.13@lens_Ci1bEHnvDxuGKIIh54LOWH:Control.Lens.Type 7fb7adc243b85acfe4d0d6592af13c64
+fe1e726b26d8c7b2b3814c8b6c07069a
+  $fConstructorPackage ::
+    GHC.Generics.Constructor Package.C1_0Package
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Package.C1_0Package
+                  Package.$fConstructorPackage_$cconName
+                  Package.$fConstructorPackage_$s$dmconFixity
+                  Package.$fConstructorPackage_$cconIsRecord -}
+f6f0709ed0057090609076219fec0a88
+  $fConstructorPackage1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Package"#) -}
+fe1e726b26d8c7b2b3814c8b6c07069a
+  $fConstructorPackage_$cconIsRecord ::
+    t Package.C1_0Package f a -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a5
+                   ds :: t Package.C1_0Package f a5 ->
+                 GHC.Types.True) -}
+fe1e726b26d8c7b2b3814c8b6c07069a
+  $fConstructorPackage_$cconName ::
+    t Package.C1_0Package f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a5
+                   ds :: t Package.C1_0Package f a5 ->
+                 Package.$fConstructorPackage1) -}
+fe1e726b26d8c7b2b3814c8b6c07069a
+  $fConstructorPackage_$s$dmconFixity ::
+    t Package.C1_0Package f a -> GHC.Generics.Fixity
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a5
+                   ds :: t Package.C1_0Package f a5 ->
+                 GHC.Generics.Prefix) -}
+f3988727c8654fcaefea5c1125d26585
+  $fDatatypePackage :: GHC.Generics.Datatype Package.D1Package
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Package.D1Package
+                  Package.$fDatatypePackage_$cmoduleName
+                  Package.$fDatatypePackage_$cmoduleName
+                  Package.$fDatatypePackage_$s$dmisNewtype -}
+f3988727c8654fcaefea5c1125d26585
+  $fDatatypePackage_$cmoduleName ::
+    t Package.D1Package f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a5
+                   ds :: t Package.D1Package f a5 ->
+                 Package.$fConstructorPackage1) -}
+f3988727c8654fcaefea5c1125d26585
+  $fDatatypePackage_$s$dmisNewtype ::
+    t Package.D1Package f a -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a5
+                   ds :: t Package.D1Package f a5 ->
+                 GHC.Types.False) -}
+2bfe18792d75d35272aa3fe549899ee8
+  $fEqPackage :: GHC.Classes.Eq Package.Package
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Package.Package
+                  Package.$fEqPackage_$c==
+                  Package.$fEqPackage_$c/= -}
+2bfe18792d75d35272aa3fe549899ee8
+  $fEqPackage_$c/= ::
+    Package.Package -> Package.Package -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SLLL),1*U(1*U,1*U,1*U,1*U)><S(SLLL),1*U(1*U,1*U,1*U,1*U)>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a5 :: Package.Package b :: Package.Package ->
+                 case Package.$fEqPackage_$c== a5 b of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+2bfe18792d75d35272aa3fe549899ee8
+  $fEqPackage_$c== ::
+    Package.Package -> Package.Package -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SLLL),1*U(1*U,1*U,1*U,1*U)><S(SLLL),1*U(1*U,1*U,1*U,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: Package.Package w1 :: Package.Package ->
+                 case w of ww { Package.Package ww1 ww2 ww3 ww4 ->
+                 case w1 of ww5 { Package.Package ww6 ww7 ww8 ww9 ->
+                 Package.$w$c== ww1 ww2 ww3 ww4 ww6 ww7 ww8 ww9 } }) -}
+2bfe18792d75d35272aa3fe549899ee8
+  $fFromJSONPackage ::
+    Data.Aeson.Types.Class.FromJSON Package.Package
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Package.$fFromJSONPackage_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <Package.Package>_N)) -}
+2bfe18792d75d35272aa3fe549899ee8
+  $fFromJSONPackage_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser Package.Package
+  {- Arity: 1, Strictness: <L,1*U> -}
+2bfe18792d75d35272aa3fe549899ee8
+  $fGenericPackage :: GHC.Generics.Generic Package.Package
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Package.Package
+                  Package.$fGenericPackage_$cfrom
+                  Package.$fGenericPackage_$cto -}
+2bfe18792d75d35272aa3fe549899ee8
+  $fGenericPackage_$cfrom ::
+    Package.Package -> GHC.Generics.Rep Package.Package x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x ds :: Package.Package ->
+                 case ds of wild { Package.Package g1 g2 g3 g4 ->
+                 (GHC.Generics.:*:
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         Package.S1_0_0Package
+                         (GHC.Generics.K1 GHC.Generics.R (GHC.Base.Maybe GHC.Base.String))
+                       GHC.Generics.:*: GHC.Generics.M1
+                                          GHC.Generics.S
+                                          Package.S1_0_1Package
+                                          (GHC.Generics.K1 GHC.Generics.R [GHC.Base.String]))
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         Package.S1_0_2Package
+                         (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                       GHC.Generics.:*: GHC.Generics.M1
+                                          GHC.Generics.S
+                                          Package.S1_0_3Package
+                                          (GHC.Generics.K1
+                                             GHC.Generics.R (GHC.Base.Maybe Data.Repo.Repo)))
+                    @ x
+                    (GHC.Generics.:*:
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            Package.S1_0_0Package
+                            (GHC.Generics.K1 GHC.Generics.R (GHC.Base.Maybe GHC.Base.String)))
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            Package.S1_0_1Package
+                            (GHC.Generics.K1 GHC.Generics.R [GHC.Base.String]))
+                       @ x
+                       g1
+                         `cast`
+                       (Trans
+                            (Sym (GHC.Generics.NTCo:K1[0]
+                                      <GHC.Generics.R>_P <GHC.Base.Maybe GHC.Base.String>_R <x>_P))
+                            (Sym (GHC.Generics.NTCo:M1[0]
+                                      <GHC.Generics.S>_P
+                                      <Package.S1_0_0Package>_P
+                                      <GHC.Generics.K1
+                                         GHC.Generics.R (GHC.Base.Maybe GHC.Base.String)>_R) <x>_N))
+                       g2
+                         `cast`
+                       (Trans
+                            (Sym (GHC.Generics.NTCo:K1[0]
+                                      <GHC.Generics.R>_P <[GHC.Base.String]>_R <x>_P))
+                            (Sym (GHC.Generics.NTCo:M1[0]
+                                      <GHC.Generics.S>_P
+                                      <Package.S1_0_1Package>_P
+                                      <GHC.Generics.K1 GHC.Generics.R [GHC.Base.String]>_R) <x>_N)))
+                    (GHC.Generics.:*:
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            Package.S1_0_2Package
+                            (GHC.Generics.K1 GHC.Generics.R GHC.Base.String))
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            Package.S1_0_3Package
+                            (GHC.Generics.K1 GHC.Generics.R (GHC.Base.Maybe Data.Repo.Repo)))
+                       @ x
+                       g3
+                         `cast`
+                       (Trans
+                            (Sym (GHC.Generics.NTCo:K1[0]
+                                      <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                            (Sym (GHC.Generics.NTCo:M1[0]
+                                      <GHC.Generics.S>_P
+                                      <Package.S1_0_2Package>_P
+                                      <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R) <x>_N))
+                       g4
+                         `cast`
+                       (Trans
+                            (Sym (GHC.Generics.NTCo:K1[0]
+                                      <GHC.Generics.R>_P <GHC.Base.Maybe Data.Repo.Repo>_R <x>_P))
+                            (Sym (GHC.Generics.NTCo:M1[0]
+                                      <GHC.Generics.S>_P
+                                      <Package.S1_0_3Package>_P
+                                      <GHC.Generics.K1
+                                         GHC.Generics.R
+                                         (GHC.Base.Maybe Data.Repo.Repo)>_R) <x>_N))))
+                   `cast`
+                 (Trans
+                      (Sym (GHC.Generics.NTCo:M1[0]
+                                <GHC.Generics.C>_P
+                                <Package.C1_0Package>_P
+                                <(GHC.Generics.M1
+                                    GHC.Generics.S
+                                    Package.S1_0_0Package
+                                    (GHC.Generics.K1
+                                       GHC.Generics.R (GHC.Base.Maybe GHC.Base.String))
+                                  GHC.Generics.:*: GHC.Generics.M1
+                                                     GHC.Generics.S
+                                                     Package.S1_0_1Package
+                                                     (GHC.Generics.K1
+                                                        GHC.Generics.R [GHC.Base.String]))
+                                 GHC.Generics.:*: (GHC.Generics.M1
+                                                     GHC.Generics.S
+                                                     Package.S1_0_2Package
+                                                     (GHC.Generics.K1
+                                                        GHC.Generics.R GHC.Base.String)
+                                                   GHC.Generics.:*: GHC.Generics.M1
+                                                                      GHC.Generics.S
+                                                                      Package.S1_0_3Package
+                                                                      (GHC.Generics.K1
+                                                                         GHC.Generics.R
+                                                                         (GHC.Base.Maybe
+                                                                            Data.Repo.Repo)))>_R))
+                      (Trans
+                           (Sym (GHC.Generics.NTCo:M1[0]
+                                     <GHC.Generics.D>_P
+                                     <Package.D1Package>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.C
+                                        Package.C1_0Package
+                                        ((GHC.Generics.M1
+                                            GHC.Generics.S
+                                            Package.S1_0_0Package
+                                            (GHC.Generics.K1
+                                               GHC.Generics.R (GHC.Base.Maybe GHC.Base.String))
+                                          GHC.Generics.:*: GHC.Generics.M1
+                                                             GHC.Generics.S
+                                                             Package.S1_0_1Package
+                                                             (GHC.Generics.K1
+                                                                GHC.Generics.R [GHC.Base.String]))
+                                         GHC.Generics.:*: (GHC.Generics.M1
+                                                             GHC.Generics.S
+                                                             Package.S1_0_2Package
+                                                             (GHC.Generics.K1
+                                                                GHC.Generics.R GHC.Base.String)
+                                                           GHC.Generics.:*: GHC.Generics.M1
+                                                                              GHC.Generics.S
+                                                                              Package.S1_0_3Package
+                                                                              (GHC.Generics.K1
+                                                                                 GHC.Generics.R
+                                                                                 (GHC.Base.Maybe
+                                                                                    Data.Repo.Repo))))>_R))
+                           (Sub (Sym (Package.Rep_Package[0])))) <x>_N) }) -}
+2bfe18792d75d35272aa3fe549899ee8
+  $fGenericPackage_$cto ::
+    GHC.Generics.Rep Package.Package x -> Package.Package
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(SS),1*U(1*U(U,U),1*U(U,U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x ds :: GHC.Generics.Rep Package.Package x ->
+                 case ds
+                        `cast`
+                      (Trans
+                           (Sub (Package.Rep_Package[0]))
+                           (Trans
+                                (GHC.Generics.NTCo:M1[0]
+                                     <GHC.Generics.D>_P
+                                     <Package.D1Package>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.C
+                                        Package.C1_0Package
+                                        ((GHC.Generics.M1
+                                            GHC.Generics.S
+                                            Package.S1_0_0Package
+                                            (GHC.Generics.K1
+                                               GHC.Generics.R (GHC.Base.Maybe GHC.Base.String))
+                                          GHC.Generics.:*: GHC.Generics.M1
+                                                             GHC.Generics.S
+                                                             Package.S1_0_1Package
+                                                             (GHC.Generics.K1
+                                                                GHC.Generics.R [GHC.Base.String]))
+                                         GHC.Generics.:*: (GHC.Generics.M1
+                                                             GHC.Generics.S
+                                                             Package.S1_0_2Package
+                                                             (GHC.Generics.K1
+                                                                GHC.Generics.R GHC.Base.String)
+                                                           GHC.Generics.:*: GHC.Generics.M1
+                                                                              GHC.Generics.S
+                                                                              Package.S1_0_3Package
+                                                                              (GHC.Generics.K1
+                                                                                 GHC.Generics.R
+                                                                                 (GHC.Base.Maybe
+                                                                                    Data.Repo.Repo))))>_R)
+                                (GHC.Generics.NTCo:M1[0]
+                                     <GHC.Generics.C>_P
+                                     <Package.C1_0Package>_P
+                                     <(GHC.Generics.M1
+                                         GHC.Generics.S
+                                         Package.S1_0_0Package
+                                         (GHC.Generics.K1
+                                            GHC.Generics.R (GHC.Base.Maybe GHC.Base.String))
+                                       GHC.Generics.:*: GHC.Generics.M1
+                                                          GHC.Generics.S
+                                                          Package.S1_0_1Package
+                                                          (GHC.Generics.K1
+                                                             GHC.Generics.R [GHC.Base.String]))
+                                      GHC.Generics.:*: (GHC.Generics.M1
+                                                          GHC.Generics.S
+                                                          Package.S1_0_2Package
+                                                          (GHC.Generics.K1
+                                                             GHC.Generics.R GHC.Base.String)
+                                                        GHC.Generics.:*: GHC.Generics.M1
+                                                                           GHC.Generics.S
+                                                                           Package.S1_0_3Package
+                                                                           (GHC.Generics.K1
+                                                                              GHC.Generics.R
+                                                                              (GHC.Base.Maybe
+                                                                                 Data.Repo.Repo)))>_R)) <x>_N) of wild { GHC.Generics.:*: ds1 ds2 ->
+                 case ds1 of wild1 { GHC.Generics.:*: ds3 ds4 ->
+                 case ds2 of wild2 { GHC.Generics.:*: ds5 ds6 ->
+                 Package.Package
+                   ds3
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Package.S1_0_0Package>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe GHC.Base.String)>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.Maybe GHC.Base.String>_R <x>_P))
+                   ds4
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Package.S1_0_1Package>_P
+                             <GHC.Generics.K1 GHC.Generics.R [GHC.Base.String]>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <[GHC.Base.String]>_R <x>_P))
+                   ds5
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Package.S1_0_2Package>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                   ds6
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Package.S1_0_3Package>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe Data.Repo.Repo)>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P
+                             <GHC.Base.Maybe Data.Repo.Repo>_R
+                             <x>_P)) } } }) -}
+62c57234ffa2666dcb6e2d3aaf2c35c0
+  $fSelectorPackage :: GHC.Generics.Selector Package.S1_0_0Package
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Package.$fSelectorPackage_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Package.S1_0_0Package>_N)) -}
+e63db55a05c2a15fcf2bfefc03d7c7eb
+  $fSelectorPackage0 :: GHC.Generics.Selector Package.S1_0_1Package
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Package.$fSelectorPackage0_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Package.S1_0_1Package>_N)) -}
+e63db55a05c2a15fcf2bfefc03d7c7eb
+  $fSelectorPackage0_$cselName ::
+    t Package.S1_0_1Package f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a5
+                   ds :: t Package.S1_0_1Package f a5 ->
+                 Package.$fSelectorPackage5) -}
+a27f54b9421c9c521c4919d8e66b52fc
+  $fSelectorPackage1 :: GHC.Generics.Selector Package.S1_0_2Package
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Package.$fSelectorPackage1_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Package.S1_0_2Package>_N)) -}
+a27f54b9421c9c521c4919d8e66b52fc
+  $fSelectorPackage1_$cselName ::
+    t Package.S1_0_2Package f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a5
+                   ds :: t Package.S1_0_2Package f a5 ->
+                 Package.$fSelectorPackage6) -}
+2bfe18792d75d35272aa3fe549899ee8
+  $fSelectorPackage2 :: GHC.Generics.Selector Package.S1_0_3Package
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Package.$fSelectorPackage2_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Package.S1_0_3Package>_N)) -}
+2bfe18792d75d35272aa3fe549899ee8
+  $fSelectorPackage2_$cselName ::
+    t Package.S1_0_3Package f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a5
+                   ds :: t Package.S1_0_3Package f a5 ->
+                 Package.$fSelectorPackage7) -}
+904f72479f17f61c3efff517ec779286
+  $fSelectorPackage4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_github"#) -}
+acdd9279fec151c9ee2949122238f6d6
+  $fSelectorPackage5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_dependencies"#) -}
+a48165921efd604e48c678683931ef7a
+  $fSelectorPackage6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_name"#) -}
+ff4d631b2f29f64bdd5c1db5123b1111
+  $fSelectorPackage7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_repo"#) -}
+62c57234ffa2666dcb6e2d3aaf2c35c0
+  $fSelectorPackage_$cselName ::
+    t Package.S1_0_0Package f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a5
+                   ds :: t Package.S1_0_0Package f a5 ->
+                 Package.$fSelectorPackage4) -}
+2bfe18792d75d35272aa3fe549899ee8
+  $fShowPackage :: GHC.Show.Show Package.Package
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Package.Package
+                  Package.$fShowPackage_$cshowsPrec
+                  Package.$fShowPackage_$cshow
+                  Package.$fShowPackage_$cshowList -}
+2bfe18792d75d35272aa3fe549899ee8
+  $fShowPackage1 :: Package.Package -> GHC.Show.ShowS
+  {- Arity: 1,
+     Unfolding: (\ w :: Package.Package ->
+                 case w of ww { Package.Package ww1 ww2 ww3 ww4 ->
+                 Package.$w$cshowsPrec 0 ww1 ww2 ww3 ww4 }) -}
+dd1c7ab620409e2420cb71f66cc416d7
+  $fShowPackage2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+d2967d905c81190c91c44e3b5137e00e
+  $fShowPackage3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_repo = "#) -}
+8b4d839f70be2daa62e17e5935a20877
+  $fShowPackage4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_name = "#) -}
+ebb01462750780ec5522ba6e52cdd00e
+  $fShowPackage5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_dependencies = "#) -}
+15baf091b9977ed312b39d6b46240436
+  $fShowPackage6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
+588f3b8e408fe51db3ccb79419f44b86
+  $fShowPackage7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_github = "#) -}
+cd1cd748314f54b3761fa71f78d60ec9
+  $fShowPackage8 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Package {"#) -}
+10b329e5764ce7af7fe24ee3d8773aa2
+  $fShowPackage9 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 0) -}
+2bfe18792d75d35272aa3fe549899ee8
+  $fShowPackage_$cshow :: Package.Package -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U,U,U,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Package.Package ->
+                 Package.$fShowPackage_$cshowsPrec
+                   GHC.Show.shows18
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+2bfe18792d75d35272aa3fe549899ee8
+  $fShowPackage_$cshowList :: [Package.Package] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Package.Package
+                   Package.$fShowPackage1) -}
+2bfe18792d75d35272aa3fe549899ee8
+  $fShowPackage_$cshowsPrec ::
+    GHC.Types.Int -> Package.Package -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U(U)><S,1*U(1*U,U,U,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: GHC.Types.Int w1 :: Package.Package ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Package.Package ww3 ww4 ww5 ww6 ->
+                 Package.$w$cshowsPrec ww1 ww3 ww4 ww5 ww6 } }) -}
+2bfe18792d75d35272aa3fe549899ee8
+  $fToJSONPackage :: Data.Aeson.Types.Class.ToJSON Package.Package
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U,1*U,1*U)>m1,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Package.$fToJSONPackage_$ctoJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:ToJSON[0]
+                          <Package.Package>_N)) -}
+fd0ae65558bafd457fa14721f46e4a30
+  $fToJSONPackage1 :: Data.Text.Internal.Text
+  {- Unfolding: (GHC.ST.runSTRep
+                   @ Data.Text.Internal.Text
+                   Package.$fToJSONPackage2) -}
+9ecc057872317a487409f07b6c562e62
+  $fToJSONPackage10 ::
+    GHC.Types.SPEC
+    -> (Data.Vector.Generic.Base.Mutable
+          Data.Vector.Vector
+          (Control.Monad.Primitive.PrimState (GHC.ST.ST s))
+          Data.Aeson.Types.Internal.Value,
+        GHC.Types.Int)
+    -> [Data.Aeson.Types.Internal.Value]
+    -> GHC.Prim.State# s
+    -> (# GHC.Prim.State# s,
+          (Data.Vector.Generic.Base.Mutable
+             Data.Vector.Vector
+             (Control.Monad.Primitive.PrimState (GHC.ST.ST s))
+             Data.Aeson.Types.Internal.Value,
+           GHC.Types.Int) #)
+  {- Arity: 4, Strictness: <S,1*U><L,U(U(U,U,U),U(U))><S,1*U><L,U> -}
+4bb2d1d22221fdfa7c598d93d2356ef2
+  $fToJSONPackage11 :: Data.Text.Internal.Text
+  {- Unfolding: (GHC.ST.runSTRep
+                   @ Data.Text.Internal.Text
+                   Package.$fToJSONPackage12) -}
+89dc9497c9f2543f0cb7d05699da387c
+  $fToJSONPackage12 ::
+    GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                 case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                 Package.$fToJSONPackage13
+                   @ s1
+                   (Data.Text.Array.MArray @ s1 ipv1)
+                   Package.$fToJSONPackage3
+                   Package.$fSelectorPackage5
+                   0
+                   ipv }) -}
+b3ea8b8862dc9db39777ba634a5f0cb8
+  $fToJSONPackage13 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+6d34d6de3b76052de6fa8a5888da9585
+  $fToJSONPackage14 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+52a5659f0b8a6e2f5d132a1a3f1a4825
+  $fToJSONPackage15 :: Data.Text.Internal.Text
+  {- Unfolding: (GHC.ST.runSTRep
+                   @ Data.Text.Internal.Text
+                   Package.$fToJSONPackage16) -}
+23636624983271b5ae7f8d3dcf9fd61d
+  $fToJSONPackage16 ::
+    GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                 case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                 Package.$fToJSONPackage17
+                   @ s1
+                   (Data.Text.Array.MArray @ s1 ipv1)
+                   Package.$fToJSONPackage3
+                   Package.$fSelectorPackage4
+                   0
+                   ipv }) -}
+f8176af1db1757a682308f40da7f443a
+  $fToJSONPackage17 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+b0607012265e1f0b2e1112cbc38664e5
+  $fToJSONPackage2 ::
+    GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                 case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                 Package.$fToJSONPackage4
+                   @ s1
+                   (Data.Text.Array.MArray @ s1 ipv1)
+                   Package.$fToJSONPackage3
+                   Package.$fSelectorPackage7
+                   0
+                   ipv }) -}
+2f7042dd4597df0b91028399cb404e99
+  $fToJSONPackage3 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 4) -}
+17f77ab20ca87a81b63798319b1030f1
+  $fToJSONPackage4 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+11e3f4ee573dcb6f67f161b7d81ac895
+  $fToJSONPackage5 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+397b4dd90a354eb5dd2a820c7a421a16
+  $fToJSONPackage6 :: Data.Text.Internal.Text
+  {- Unfolding: (GHC.ST.runSTRep
+                   @ Data.Text.Internal.Text
+                   Package.$fToJSONPackage7) -}
+278726871c08a2c166e7a427d3f4611b
+  $fToJSONPackage7 ::
+    GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                 case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                 Package.$fToJSONPackage8
+                   @ s1
+                   (Data.Text.Array.MArray @ s1 ipv1)
+                   Package.$fToJSONPackage3
+                   Package.$fSelectorPackage6
+                   0
+                   ipv }) -}
+3b0b2ddcbcfe3e958a0866976261529b
+  $fToJSONPackage8 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+68e91d56fe25993a41fd70c3e39c1fdf
+  $fToJSONPackage9 ::
+    [[GHC.Types.Char]] -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U>m2, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: [[GHC.Types.Char]] ->
+                 case Package.$wa w of ww { (##) ww1 ->
+                 Data.Aeson.Types.Internal.Array ww1 }) -}
+2bfe18792d75d35272aa3fe549899ee8
+  $fToJSONPackage_$ctoJSON ::
+    Package.Package -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U,1*U,1*U)>m1,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: Package.Package ->
+                 case w of ww { Package.Package ww1 ww2 ww3 ww4 ->
+                 case Package.$w$ctoJSON ww1 ww2 ww3 ww4 of ww5 { (##) ww6 ->
+                 Data.Aeson.Types.Internal.Object ww6 } }) -}
+58990ba3c019f57cc2e1e33e97e10bfc
+  $s$gdmparseJSON16 ::
+    Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success [[GHC.Types.Char]] f r -> f r
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,A><C(S),1*C1(U)>,
+     Unfolding: InlineRule (2, True, True)
+                (\ @ (f :: * -> *)
+                   @ r
+                   _kf :: Data.Aeson.Types.Internal.Failure f r
+                   ks :: Data.Aeson.Types.Internal.Success [[GHC.Types.Char]] f r ->
+                 ks (GHC.Types.[] @ [GHC.Types.Char])) -}
+a467c445a539616490d0782209afb62c
+  $s$gdmparseJSON17 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "String"#) -}
+adc71fbd332c500d37396f533840b9d6
+  $s$gdmparseJSON18 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "[a]"#) -}
+fa8c998a84d9bb4c05c5d8cd630ac06f
+  $w$c== ::
+    GHC.Base.Maybe GHC.Base.String
+    -> [GHC.Base.String]
+    -> GHC.Base.String
+    -> GHC.Base.Maybe Data.Repo.Repo
+    -> GHC.Base.Maybe GHC.Base.String
+    -> [GHC.Base.String]
+    -> GHC.Base.String
+    -> GHC.Base.Maybe Data.Repo.Repo
+    -> GHC.Types.Bool
+  {- Arity: 8, HasNoCafRefs,
+     Strictness: <S,1*U><L,1*U><L,1*U><L,1*U><S,1*U><L,1*U><L,1*U><L,1*U>,
+     Inline: [0],
+     Unfolding: (\ ww :: GHC.Base.Maybe GHC.Base.String
+                   ww1 :: [GHC.Base.String]
+                   ww2 :: GHC.Base.String
+                   ww3 :: GHC.Base.Maybe Data.Repo.Repo
+                   ww4 :: GHC.Base.Maybe GHC.Base.String
+                   ww5 :: [GHC.Base.String]
+                   ww6 :: GHC.Base.String
+                   ww7 :: GHC.Base.Maybe Data.Repo.Repo ->
+                 let {
+                   $j :: GHC.Prim.Void# -> GHC.Types.Bool
+                     {- Arity: 1, Strictness: <L,A> -}
+                   = \ w :: GHC.Prim.Void#[OneShot] ->
+                     case GHC.Classes.$fEq[]_$s$c==2 ww1 ww5 of wild {
+                       GHC.Types.False -> GHC.Types.False
+                       GHC.Types.True
+                       -> case GHC.Base.eqString ww2 ww6 of wild1 {
+                            GHC.Types.False -> GHC.Types.False
+                            GHC.Types.True
+                            -> case ww3 of wild2 {
+                                 GHC.Base.Nothing
+                                 -> case ww7 of wild3 {
+                                      GHC.Base.Nothing -> GHC.Types.True
+                                      GHC.Base.Just ipv -> GHC.Types.False }
+                                 GHC.Base.Just a5
+                                 -> case ww7 of wild3 {
+                                      GHC.Base.Nothing -> GHC.Types.False
+                                      GHC.Base.Just b1 -> Data.Repo.$fEqRepo_$c== a5 b1 } } } }
+                 } in
+                 case ww of wild {
+                   GHC.Base.Nothing
+                   -> case ww4 of wild1 {
+                        GHC.Base.Nothing -> $j GHC.Prim.void#
+                        GHC.Base.Just ipv -> GHC.Types.False }
+                   GHC.Base.Just a5
+                   -> case ww4 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.False
+                        GHC.Base.Just b1
+                        -> case GHC.Base.eqString a5 b1 of wild2 {
+                             GHC.Types.False -> GHC.Types.False
+                             GHC.Types.True -> $j GHC.Prim.void# } } }) -}
+3f6fb796c3fd03975d480f423b46cbc8
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> GHC.Base.Maybe GHC.Base.String
+    -> [GHC.Base.String]
+    -> GHC.Base.String
+    -> GHC.Base.Maybe Data.Repo.Repo
+    -> GHC.Show.ShowS
+  {- Arity: 5, Strictness: <L,U><L,1*U><L,U><L,U><L,1*U>,
+     Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Int#
+                   ww1 :: GHC.Base.Maybe GHC.Base.String
+                   ww2 :: [GHC.Base.String]
+                   ww3 :: GHC.Base.String
+                   ww4 :: GHC.Base.Maybe Data.Repo.Repo ->
+                 let {
+                   f :: GHC.Base.String -> GHC.Base.String
+                   = GHC.Show.$fShowMaybe_$cshowsPrec
+                       @ [GHC.Types.Char]
+                       GHC.Show.$fShow[]_$s$fShow[]1
+                       Package.$fShowPackage9
+                       ww1
+                 } in
+                 let {
+                   f1 :: GHC.Base.String -> GHC.Base.String
+                   = GHC.Show.$fShowMaybe_$cshowsPrec
+                       @ Data.Repo.Repo
+                       Data.Repo.$fShowRepo
+                       Package.$fShowPackage9
+                       ww4
+                 } in
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ x :: GHC.Base.String ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Package.$fShowPackage8
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          Package.$fShowPackage7
+                          (f (GHC.Base.++
+                                @ GHC.Types.Char
+                                Package.$fShowPackage6
+                                (GHC.Base.++
+                                   @ GHC.Types.Char
+                                   Package.$fShowPackage5
+                                   (let {
+                                      s :: GHC.Base.String
+                                      = GHC.Base.++
+                                          @ GHC.Types.Char
+                                          Package.$fShowPackage6
+                                          (GHC.Base.++
+                                             @ GHC.Types.Char
+                                             Package.$fShowPackage4
+                                             (GHC.Types.:
+                                                @ GHC.Types.Char
+                                                GHC.Show.shows6
+                                                (GHC.Show.showLitString
+                                                   ww3
+                                                   (GHC.Types.:
+                                                      @ GHC.Types.Char
+                                                      GHC.Show.shows6
+                                                      (GHC.Base.++
+                                                         @ GHC.Types.Char
+                                                         Package.$fShowPackage6
+                                                         (GHC.Base.++
+                                                            @ GHC.Types.Char
+                                                            Package.$fShowPackage3
+                                                            (f1
+                                                               (GHC.Base.++
+                                                                  @ GHC.Types.Char
+                                                                  Package.$fShowPackage2
+                                                                  x))))))))
+                                    } in
+                                    case ww2 of wild {
+                                      [] -> GHC.CString.unpackAppendCString# "[]"# s
+                                      : x1 xs
+                                      -> GHC.Types.:
+                                           @ GHC.Types.Char
+                                           GHC.Show.showList__3
+                                           (GHC.Types.:
+                                              @ GHC.Types.Char
+                                              GHC.Show.shows6
+                                              (GHC.Show.showLitString
+                                                 x1
+                                                 (GHC.Types.:
+                                                    @ GHC.Types.Char
+                                                    GHC.Show.shows6
+                                                    (let {
+                                                       lvl30 :: [GHC.Types.Char]
+                                                       = GHC.Types.:
+                                                           @ GHC.Types.Char
+                                                           GHC.Show.showList__2
+                                                           s
+                                                     } in
+                                                     letrec {
+                                                       showl :: [[GHC.Types.Char]]
+                                                                -> [GHC.Types.Char]
+                                                         {- Arity: 1, Strictness: <S,1*U> -}
+                                                       = \ ds2 :: [[GHC.Types.Char]] ->
+                                                         case ds2 of wild1 {
+                                                           [] -> lvl30
+                                                           : y ys
+                                                           -> GHC.Types.:
+                                                                @ GHC.Types.Char
+                                                                GHC.Show.showList__1
+                                                                (GHC.Types.:
+                                                                   @ GHC.Types.Char
+                                                                   GHC.Show.shows6
+                                                                   (GHC.Show.showLitString
+                                                                      y
+                                                                      (GHC.Types.:
+                                                                         @ GHC.Types.Char
+                                                                         GHC.Show.shows6
+                                                                         (showl ys)))) }
+                                                     } in
+                                                     showl xs)))) })))))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11) of wild {
+                   GHC.Types.False -> p
+                   GHC.Types.True
+                   -> \ x :: GHC.Base.String ->
+                      GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows9
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows8 x)) }) -}
+9f8943d628eff669872043439b0baadc
+  $w$ctoJSON ::
+    GHC.Base.Maybe GHC.Base.String
+    -> [GHC.Base.String]
+    -> GHC.Base.String
+    -> GHC.Base.Maybe Data.Repo.Repo
+    -> (# Data.Aeson.Types.Internal.Object #)
+  {- Arity: 4, Strictness: <L,1*U><L,1*U><L,1*U><L,1*U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Base.Maybe GHC.Base.String
+                   ww1 :: [GHC.Base.String]
+                   ww2 :: GHC.Base.String
+                   ww3 :: GHC.Base.Maybe Data.Repo.Repo ->
+                 case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Package.$fToJSONPackage15,
+                            case ww of wild {
+                              GHC.Base.Nothing -> Data.Aeson.Types.Internal.Null
+                              GHC.Base.Just a64
+                              -> case GHC.ST.runSTRep
+                                        @ Data.Text.Internal.Text
+                                        (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                                         case GHC.Prim.newByteArray#
+                                                @ s1
+                                                8
+                                                s2 of ds1 { (#,#) ipv ipv1 ->
+                                         Package.$fToJSONPackage14
+                                           @ s1
+                                           (Data.Text.Array.MArray @ s1 ipv1)
+                                           Package.$fToJSONPackage3
+                                           a64
+                                           0
+                                           ipv }) of dt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
+                                 Data.Aeson.Types.Internal.String dt } })
+                           (GHC.Types.:
+                              @ Data.Aeson.Types.Internal.Pair
+                              (Package.$fToJSONPackage11, Package.$fToJSONPackage9 ww1)
+                              (GHC.Types.:
+                                 @ Data.Aeson.Types.Internal.Pair
+                                 (Package.$fToJSONPackage6,
+                                  case GHC.ST.runSTRep
+                                         @ Data.Text.Internal.Text
+                                         (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                                          case GHC.Prim.newByteArray#
+                                                 @ s1
+                                                 8
+                                                 s2 of ds1 { (#,#) ipv ipv1 ->
+                                          Package.$fToJSONPackage5
+                                            @ s1
+                                            (Data.Text.Array.MArray @ s1 ipv1)
+                                            Package.$fToJSONPackage3
+                                            ww2
+                                            0
+                                            ipv }) of dt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
+                                  Data.Aeson.Types.Internal.String dt })
+                                 (GHC.Types.:
+                                    @ Data.Aeson.Types.Internal.Pair
+                                    (Package.$fToJSONPackage1,
+                                     case ww3 of wild {
+                                       GHC.Base.Nothing -> Data.Aeson.Types.Internal.Null
+                                       GHC.Base.Just a64 -> Data.Repo.$fToJSONRepo_$ctoJSON a64 })
+                                    (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)))))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 (# dt #) }) -}
+9c1e326c7bdc5d0ab8cf1ff0c3cee19d
+  $wa :: [[GHC.Types.Char]] -> (# Data.Aeson.Types.Internal.Array #)
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ w :: [[GHC.Types.Char]] ->
+                 case GHC.ST.runSTRep
+                        @ (Data.Vector.Vector Data.Aeson.Types.Internal.Value)
+                        (\ @ s s1 :: GHC.Prim.State# s[OneShot] ->
+                         case GHC.Prim.newArray#
+                                @ Data.Aeson.Types.Internal.Value
+                                @ (Control.Monad.Primitive.PrimState (GHC.ST.ST s))
+                                0
+                                (Data.Vector.Mutable.uninitialised
+                                   @ Data.Aeson.Types.Internal.Value)
+                                s1
+                                  `cast`
+                                (GHC.Prim.State#
+                                   (Sym (Control.Monad.Primitive.TFCo:R:PrimStateST[0]
+                                             <s>_N)))_R of ds1 { (#,#) ipv ipv1 ->
+                         case Package.$fToJSONPackage10
+                                @ s
+                                GHC.Types.SPEC
+                                ((Data.Vector.Mutable.MVector
+                                    @ (Control.Monad.Primitive.PrimState (GHC.ST.ST s))
+                                    @ Data.Aeson.Types.Internal.Value
+                                    0
+                                    0
+                                    ipv1)
+                                   `cast`
+                                 (Sub (Sym (Data.Vector.TFCo:R:MutableVector[0])) <Control.Monad.Primitive.PrimState
+                                                                                     (GHC.ST.ST
+                                                                                        s)>_N <Data.Aeson.Types.Internal.Value>_N),
+                                 Package.$fShowPackage9)
+                                (GHC.Base.map
+                                   @ [GHC.Types.Char]
+                                   @ Data.Aeson.Types.Internal.Value
+                                   Data.Aeson.Types.Instances.$fToJSON[]0_$ctoJSON
+                                   w)
+                                ipv
+                                  `cast`
+                                (GHC.Prim.State#
+                                   (Control.Monad.Primitive.TFCo:R:PrimStateST[0]
+                                        <s>_N))_R of ds2 { (#,#) ipv6 ipv7 ->
+                         case ipv7 of wild5 { (,) v' n ->
+                         case v'
+                                `cast`
+                              (Sub (Data.Vector.TFCo:R:MutableVector[0]) <Control.Monad.Primitive.PrimState
+                                                                            (GHC.ST.ST
+                                                                               s)>_N <Data.Aeson.Types.Internal.Value>_N) of wild { Data.Vector.Mutable.MVector dt dt1 dt2 ->
+                         case n of dt5 { GHC.Types.I# dt6 ->
+                         case GHC.Prim.unsafeFreezeArray#
+                                @ (Control.Monad.Primitive.PrimState (GHC.ST.ST s))
+                                @ Data.Aeson.Types.Internal.Value
+                                dt2
+                                ipv6
+                                  `cast`
+                                (GHC.Prim.State#
+                                   (Sym (Control.Monad.Primitive.TFCo:R:PrimStateST[0]
+                                             <s>_N)))_R of ds4 { (#,#) ipv2 ipv3 ->
+                         (# ipv2
+                              `cast`
+                            (GHC.Prim.State#
+                               (Control.Monad.Primitive.TFCo:R:PrimStateST[0] <s>_N))_R,
+                            Data.Vector.Vector
+                              @ Data.Aeson.Types.Internal.Value
+                              dt
+                              dt6
+                              ipv3 #) } } } } } }) of dt { Data.Vector.Vector ipv ipv1 ipv2 ->
+                 (# dt #) }) -}
+81810f1a29f0ee5336208db37150885a
+  $wa1 ::
+    GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Array# Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser [[GHC.Types.Char]]
+  {- Arity: 3, Strictness: <L,U><L,U><L,U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Int#
+                   ww1 :: GHC.Prim.Int#
+                   ww2 :: GHC.Prim.Array# Data.Aeson.Types.Internal.Value ->
+                 letrec {
+                   $wgo :: GHC.Prim.Int#
+                           -> Data.Aeson.Types.Internal.Parser [[GHC.Types.Char]]
+                     {- Arity: 1, Strictness: <L,U>, Inline: [0] -}
+                   = \ ww3 :: GHC.Prim.Int# ->
+                     case GHC.Prim.tagToEnum#
+                            @ GHC.Types.Bool
+                            (GHC.Prim.>=# ww3 ww1) of wild2 {
+                       GHC.Types.False
+                       -> let {
+                            r :: Data.Aeson.Types.Internal.Parser [[GHC.Types.Char]]
+                            = $wgo (GHC.Prim.+# ww3 1)
+                          } in
+                          let {
+                            m :: Data.Aeson.Types.Internal.Parser [GHC.Types.Char]
+                            = case GHC.Prim.indexArray#
+                                     @ Data.Aeson.Types.Internal.Value
+                                     ww2
+                                     (GHC.Prim.+# ww ww3) of ds2 { (##) ipv ->
+                              case ipv of wild {
+                                DEFAULT
+                                -> Data.Aeson.Types.Instances.typeMismatch
+                                     @ GHC.Base.String
+                                     Package.$s$gdmparseJSON17
+                                     wild
+                                Data.Aeson.Types.Internal.String txt
+                                -> case txt of wild1 { Data.Text.Internal.Text dt dt1 dt2 ->
+                                   let {
+                                     a63 :: GHC.Base.String
+                                     = let {
+                                         a5 :: GHC.Prim.Int# = GHC.Prim.+# dt1 dt2
+                                       } in
+                                       letrec {
+                                         $wunfold :: GHC.Prim.Int# -> [GHC.Types.Char]
+                                           {- Arity: 1, Strictness: <L,U>, Inline: [0] -}
+                                         = \ ww4 :: GHC.Prim.Int# ->
+                                           case GHC.Prim.tagToEnum#
+                                                  @ GHC.Types.Bool
+                                                  (GHC.Prim.>=# ww4 a5) of wild3 {
+                                             GHC.Types.False
+                                             -> case GHC.Prim.indexWord16Array#
+                                                       dt
+                                                       ww4 of r# { DEFAULT ->
+                                                case GHC.Prim.tagToEnum#
+                                                       @ GHC.Types.Bool
+                                                       (GHC.Prim.geWord# r# __word 55296) of wild4 {
+                                                  GHC.Types.False
+                                                  -> GHC.Types.:
+                                                       @ GHC.Types.Char
+                                                       (GHC.Types.C#
+                                                          (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                                       ($wunfold (GHC.Prim.+# ww4 1))
+                                                  GHC.Types.True
+                                                  -> case GHC.Prim.tagToEnum#
+                                                            @ GHC.Types.Bool
+                                                            (GHC.Prim.leWord#
+                                                               r#
+                                                               __word 56319) of wild5 {
+                                                       GHC.Types.False
+                                                       -> GHC.Types.:
+                                                            @ GHC.Types.Char
+                                                            (GHC.Types.C#
+                                                               (GHC.Prim.chr#
+                                                                  (GHC.Prim.word2Int# r#)))
+                                                            ($wunfold (GHC.Prim.+# ww4 1))
+                                                       GHC.Types.True
+                                                       -> case GHC.Prim.indexWord16Array#
+                                                                 dt
+                                                                 (GHC.Prim.+#
+                                                                    ww4
+                                                                    1) of r#1 { DEFAULT ->
+                                                          GHC.Types.:
+                                                            @ GHC.Types.Char
+                                                            (GHC.Types.C#
+                                                               (GHC.Prim.chr#
+                                                                  (GHC.Prim.+#
+                                                                     (GHC.Prim.+#
+                                                                        (GHC.Prim.uncheckedIShiftL#
+                                                                           (GHC.Prim.-#
+                                                                              (GHC.Prim.word2Int#
+                                                                                 r#)
+                                                                              55296)
+                                                                           10)
+                                                                        (GHC.Prim.-#
+                                                                           (GHC.Prim.word2Int# r#1)
+                                                                           56320))
+                                                                     65536)))
+                                                            ($wunfold (GHC.Prim.+# ww4 2)) } } } }
+                                             GHC.Types.True -> GHC.Types.[] @ GHC.Types.Char }
+                                       } in
+                                       $wunfold dt1
+                                   } in
+                                   (\ @ (f :: * -> *)
+                                      @ r1
+                                      _kf :: Data.Aeson.Types.Internal.Failure f r1
+                                      ks :: Data.Aeson.Types.Internal.Success
+                                              GHC.Base.String f r1 ->
+                                    ks a63)
+                                     `cast`
+                                   (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                             <GHC.Base.String>_R)) } } }
+                          } in
+                          (\ @ (f :: * -> *)
+                             @ r1
+                             kf :: Data.Aeson.Types.Internal.Failure f r1
+                             ks :: Data.Aeson.Types.Internal.Success [[GHC.Types.Char]] f r1 ->
+                           m `cast`
+                           (Data.Aeson.Types.Internal.NTCo:Parser[0] <[GHC.Types.Char]>_R)
+                             @ f
+                             @ r1
+                             kf
+                             (\ a65 :: [GHC.Types.Char] ->
+                              r `cast`
+                              (Data.Aeson.Types.Internal.NTCo:Parser[0] <[[GHC.Types.Char]]>_R)
+                                @ f
+                                @ r1
+                                kf
+                                (\ a66 :: [[GHC.Types.Char]] ->
+                                 ks (GHC.Types.: @ [GHC.Types.Char] a65 a66))))
+                            `cast`
+                          (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                    <[[GHC.Types.Char]]>_R))
+                       GHC.Types.True
+                       -> Package.$s$gdmparseJSON16
+                            `cast`
+                          (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                    <[[GHC.Types.Char]]>_R)) }
+                 } in
+                 $wgo 0) -}
+8647799e033961e5bfd73cde6c22b8e9
+  $wtoPackage ::
+    [[GHC.Types.Char]]
+    -> (# GHC.Base.Maybe GHC.Base.String,
+          [GHC.Base.String],
+          GHC.Base.String,
+          GHC.Base.Maybe Data.Repo.Repo #)
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ w :: [[GHC.Types.Char]] ->
+                 case w of wild {
+                   []
+                   -> case Package.toPackage6
+                      ret_ty (# GHC.Base.Maybe GHC.Base.String,
+                                [GHC.Base.String],
+                                GHC.Base.String,
+                                GHC.Base.Maybe Data.Repo.Repo #)
+                      of {}
+                   : ipv ipv1
+                   -> case Data.List.isSubsequenceOf
+                             @ GHC.Types.Char
+                             GHC.Classes.$fEqChar
+                             Package.isGithub1
+                             ipv of wild1 {
+                        GHC.Types.False
+                        -> (# GHC.Base.Nothing @ GHC.Base.String,
+                              GHC.Base.map
+                                @ [GHC.Types.Char]
+                                @ [GHC.Types.Char]
+                                Package.toPackage3
+                                (GHC.List.init1 @ [GHC.Types.Char] ipv ipv1),
+                              case Package.toPackage1 of wild2 { GHC.Types.I# x ->
+                              case GHC.Prim.tagToEnum#
+                                     @ GHC.Types.Bool
+                                     (GHC.Prim.<=# x 0) of wild3 {
+                                GHC.Types.False
+                                -> Package.$wunsafeDrop2
+                                     @ GHC.Types.Char
+                                     x
+                                     (Package.toPackage_go1
+                                        wild
+                                        (GHC.List.lastError @ [GHC.Types.Char]))
+                                GHC.Types.True
+                                -> Package.toPackage_go1
+                                     wild
+                                     (GHC.List.lastError @ [GHC.Types.Char]) } },
+                              GHC.Base.Nothing @ Data.Repo.Repo #)
+                        GHC.Types.True
+                        -> (# GHC.Base.Just @ [GHC.Types.Char] (Package.dropGithub ipv),
+                              case ipv1 of wild2 {
+                                [] -> case GHC.List.init2 ret_ty [GHC.Base.String] of {}
+                                : x xs
+                                -> GHC.Base.map
+                                     @ [GHC.Types.Char]
+                                     @ [GHC.Types.Char]
+                                     Package.toPackage3
+                                     (GHC.List.init1 @ [GHC.Types.Char] x xs) },
+                              case Package.toPackage1 of wild2 { GHC.Types.I# x ->
+                              case GHC.Prim.tagToEnum#
+                                     @ GHC.Types.Bool
+                                     (GHC.Prim.<=# x 0) of wild3 {
+                                GHC.Types.False
+                                -> Package.$wunsafeDrop1
+                                     @ GHC.Types.Char
+                                     x
+                                     (Package.toPackage_go
+                                        wild
+                                        (GHC.List.lastError @ [GHC.Types.Char]))
+                                GHC.Types.True
+                                -> Package.toPackage_go
+                                     wild
+                                     (GHC.List.lastError @ [GHC.Types.Char]) } },
+                              GHC.Base.Nothing @ Data.Repo.Repo #) } }) -}
+d61cdc8d3182844bb52db34562ac4761
+  $wunsafeDrop :: GHC.Prim.Int# -> [a1] -> [a1]
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U><S,1*U>,
+     Inline: [0] -}
+a9a43c0d4d95b150bd17d71cd7817101
+  $wunsafeDrop1 :: GHC.Prim.Int# -> [a1] -> [a1]
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U><S,1*U>,
+     Inline: [0] -}
+c4d245f1e5d5ac5da6fba99a9269e2a5
+  $wunsafeDrop2 :: GHC.Prim.Int# -> [a1] -> [a1]
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U><S,1*U>,
+     Inline: [0] -}
+fe1e726b26d8c7b2b3814c8b6c07069a
+  abstract(True) C1_0Package
+f3988727c8654fcaefea5c1125d26585
+  abstract(True) D1Package
+2bfe18792d75d35272aa3fe549899ee8
+  data Package
+    = Package {_github :: GHC.Base.Maybe GHC.Base.String,
+               _dependencies :: [GHC.Base.String],
+               _name :: GHC.Base.String,
+               _repo :: GHC.Base.Maybe Data.Repo.Repo}
+2bfe18792d75d35272aa3fe549899ee8
+  axiom Rep_Package::
+      GHC.Generics.Rep Package.Package
+        = GHC.Generics.D1
+            Package.D1Package
+            (GHC.Generics.C1
+               Package.C1_0Package
+               ((GHC.Generics.S1
+                   Package.S1_0_0Package
+                   (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Base.String))
+                 GHC.Generics.:*: GHC.Generics.S1
+                                    Package.S1_0_1Package (GHC.Generics.Rec0 [GHC.Base.String]))
+                GHC.Generics.:*: (GHC.Generics.S1
+                                    Package.S1_0_2Package (GHC.Generics.Rec0 GHC.Base.String)
+                                  GHC.Generics.:*: GHC.Generics.S1
+                                                     Package.S1_0_3Package
+                                                     (GHC.Generics.Rec0
+                                                        (GHC.Base.Maybe Data.Repo.Repo)))))
+62c57234ffa2666dcb6e2d3aaf2c35c0
+  abstract(True) S1_0_0Package
+e63db55a05c2a15fcf2bfefc03d7c7eb
+  abstract(True) S1_0_1Package
+a27f54b9421c9c521c4919d8e66b52fc
+  abstract(True) S1_0_2Package
+2bfe18792d75d35272aa3fe549899ee8
+  abstract(True) S1_0_3Package
+0f5a8a144371cbdf0c54be779589dc38
+  _dependencies :: Package.Package -> [GHC.Base.String]
+  RecSel Package.Package
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSLL),1*U(A,1*U,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Package.Package ->
+                 case ds of wild { Package.Package ds1 ds2 ds3 ds4 -> ds2 }) -}
+85e0324804511d165cadb709703fc3dc
+  _github :: Package.Package -> GHC.Base.Maybe GHC.Base.String
+  RecSel Package.Package
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLLL),1*U(1*U,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Package.Package ->
+                 case ds of wild { Package.Package ds1 ds2 ds3 ds4 -> ds1 }) -}
+a9ae1ef6fca7b34140ca2849822e2d1d
+  _name :: Package.Package -> GHC.Base.String
+  RecSel Package.Package
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLSL),1*U(A,A,1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Package.Package ->
+                 case ds of wild { Package.Package ds1 ds2 ds3 ds4 -> ds3 }) -}
+ca76bc8cd77843e3e432e95adb37c15f
+  _repo :: Package.Package -> GHC.Base.Maybe Data.Repo.Repo
+  RecSel Package.Package
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLLS),1*U(A,A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Package.Package ->
+                 case ds of wild { Package.Package ds1 ds2 ds3 ds4 -> ds4 }) -}
+158873a93422cad20202528869d98c62
+  dependencies ::
+    Control.Lens.Type.Lens' Package.Package [GHC.Base.String]
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U)>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ (f :: * -> *)
+                   $dFunctor :: GHC.Base.Functor f
+                   f1 :: [GHC.Base.String] -> f [GHC.Base.String]
+                   ds :: Package.Package ->
+                 case ds of wild { Package.Package x x1 x2 x3 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ [GHC.Base.String]
+                   @ Package.Package
+                   (\ y :: [GHC.Base.String] -> Package.Package x y x2 x3)
+                   (f1 x1) }) -}
+f07ba3686950b3064ed4672fa4867b2d
+  dropGithub :: [GHC.Types.Char] -> [GHC.Types.Char]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ x :: [GHC.Types.Char] ->
+                 Package.$wunsafeDrop
+                   @ GHC.Types.Char
+                   2
+                   (GHC.List.dropWhile @ GHC.Types.Char Package.dropGithub1 x)) -}
+4a2b10c8982dd1591d47996211e9ecc4
+  dropGithub1 :: GHC.Types.Char -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: GHC.Types.Char ->
+                 case ds of wild { GHC.Types.C# c1 ->
+                 case c1 of wild1 {
+                   DEFAULT -> GHC.Types.True 'm' -> GHC.Types.False } }) -}
+d4185d40cfa0570922b941e59fd1201a
+  github ::
+    Control.Lens.Type.Lens'
+      Package.Package (GHC.Base.Maybe GHC.Base.String)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U)>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ (f :: * -> *)
+                   $dFunctor :: GHC.Base.Functor f
+                   f1 :: GHC.Base.Maybe GHC.Base.String
+                         -> f (GHC.Base.Maybe GHC.Base.String)
+                   ds :: Package.Package ->
+                 case ds of wild { Package.Package x x1 x2 x3 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ (GHC.Base.Maybe GHC.Base.String)
+                   @ Package.Package
+                   (\ y :: GHC.Base.Maybe GHC.Base.String ->
+                    Package.Package y x1 x2 x3)
+                   (f1 x) }) -}
+c48388eaa23025151c6e497a6817d050
+  hasGithub :: Package.Package -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLLL),1*U(1*U,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Package.Package ->
+                 case x of wild { Package.Package ds ds1 ds2 ds3 ->
+                 case ds of wild1 {
+                   GHC.Base.Nothing -> GHC.Types.False
+                   GHC.Base.Just ipv -> GHC.Types.True } }) -}
+a149ce784cc84ce3b7abea2de428373a
+  isGithub :: [GHC.Types.Char] -> GHC.Types.Bool
+  {- Arity: 1,
+     Unfolding: (Data.List.isSubsequenceOf
+                   @ GHC.Types.Char
+                   GHC.Classes.$fEqChar
+                   Package.isGithub1) -}
+cbecc600cfb2590319c4521ca23ad2c7
+  isGithub1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "github.com"#) -}
+c62affb4cfcde1a66d630046a48c7b12
+  name :: Control.Lens.Type.Lens' Package.Package GHC.Base.String
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U)>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ (f :: * -> *)
+                   $dFunctor :: GHC.Base.Functor f
+                   f1 :: GHC.Base.String -> f GHC.Base.String
+                   ds :: Package.Package ->
+                 case ds of wild { Package.Package x x1 x2 x3 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ GHC.Base.String
+                   @ Package.Package
+                   (\ y :: GHC.Base.String -> Package.Package x x1 y x3)
+                   (f1 x2) }) -}
+a4ac25c1bfa08593c132c6cfc2d1b846
+  parsePackages :: GHC.Base.String -> [Package.Package]
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: GHC.Base.String ->
+                 GHC.Base.build
+                   @ Package.Package
+                   (\ @ b1
+                      c :: Package.Package -> b1 -> b1[OneShot]
+                      n :: b1[OneShot] ->
+                    GHC.Base.foldr
+                      @ [[GHC.Types.Char]]
+                      @ b1
+                      (GHC.Base.mapFB
+                         @ Package.Package
+                         @ b1
+                         @ [[GHC.Types.Char]]
+                         c
+                         Package.parsePackages3)
+                      n
+                      (Data.OldList.groupBy
+                         @ [GHC.Types.Char]
+                         Package.parsePackages1
+                         (Data.OldList.lines x)))) -}
+b2b4c822265b6c1af5c5056b8abe91cc
+  parsePackages1 ::
+    [GHC.Types.Char] -> [GHC.Types.Char] -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ ds :: [GHC.Types.Char] eta :: [GHC.Types.Char] ->
+                 Package.parsePackages2 eta) -}
+e50a25132b5620e915fbe587c403709d
+  parsePackages2 :: [GHC.Types.Char] -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: [GHC.Types.Char] ->
+                 case x of wild {
+                   [] -> GHC.Types.False : ds1 ds2 -> GHC.Types.True }) -}
+29dff2c3cd19563c30212006e9675e40
+  parsePackages3 :: [[GHC.Types.Char]] -> Package.Package
+  {- Arity: 1, Strictness: <S,1*U>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: [[GHC.Types.Char]] ->
+                 Package.toPackage
+                   (GHC.Base.build
+                      @ [GHC.Types.Char]
+                      (\ @ b c :: [GHC.Types.Char] -> b -> b[OneShot] n :: b[OneShot] ->
+                       GHC.Base.foldr
+                         @ [GHC.Types.Char]
+                         @ b
+                         (GHC.List.filterFB @ [GHC.Types.Char] @ b c Package.parsePackages2)
+                         n
+                         x))) -}
+5668f05c33559241aa49e814b294ad78
+  repo ::
+    Control.Lens.Type.Lens'
+      Package.Package (GHC.Base.Maybe Data.Repo.Repo)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U)>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ (f :: * -> *)
+                   $dFunctor :: GHC.Base.Functor f
+                   f1 :: GHC.Base.Maybe Data.Repo.Repo
+                         -> f (GHC.Base.Maybe Data.Repo.Repo)
+                   ds :: Package.Package ->
+                 case ds of wild { Package.Package x x1 x2 x3 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ (GHC.Base.Maybe Data.Repo.Repo)
+                   @ Package.Package
+                   (\ y :: GHC.Base.Maybe Data.Repo.Repo -> Package.Package x x1 x2 y)
+                   (f1 x3) }) -}
+66cd90ce1d53d27b146b836697045820
+  toPackage :: [[GHC.Types.Char]] -> Package.Package
+  {- Arity: 1, Strictness: <S,1*U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: [[GHC.Types.Char]] ->
+                 case Package.$wtoPackage w of ww { (#,,,#) ww1 ww2 ww3 ww4 ->
+                 Package.Package ww1 ww2 ww3 ww4 }) -}
+89cd0df2b207c549c3bc923022aacae1
+  toPackage1 :: GHC.Types.Int
+  {- Unfolding: (Package.toPackage2 Package.$fShowPackage9) -}
+44b3f931323f671614f9b07d21f4b286
+  toPackage2 :: GHC.Types.Int -> GHC.Types.Int
+  {- Unfolding: (GHC.CString.unpackFoldrCString#
+                   @ (GHC.Types.Int -> GHC.Types.Int)
+                   "http://hackage.haskell.org/package/"#
+                   (GHC.List.lengthFB @ GHC.Types.Char)
+                   (GHC.Base.id @ GHC.Types.Int)) -}
+25eb1c16bcd45280e7e97cc6e2f59034
+  toPackage3 :: [GHC.Types.Char] -> [GHC.Types.Char]
+  {- Arity: 1,
+     Unfolding: (GHC.List.drop @ GHC.Types.Char Package.toPackage4) -}
+ef535db3f5a0ea94646596e2c3442da7
+  toPackage4 :: GHC.Types.Int
+  {- Unfolding: (Package.toPackage5 Package.$fShowPackage9) -}
+3d2f697c901e0dbe901c470a28723f5c
+  toPackage5 :: GHC.Types.Int -> GHC.Types.Int
+  {- Unfolding: (GHC.CString.unpackFoldrCString#
+                   @ (GHC.Types.Int -> GHC.Types.Int)
+                   "/package/"#
+                   (GHC.List.lengthFB @ GHC.Types.Char)
+                   (GHC.Base.id @ GHC.Types.Int)) -}
+d979c46683b2841408efa43d26fb2010
+  toPackage6 :: Package.Package
+  {- Strictness: b -}
+7b0c7ee6a39681c17d34ecef95dbdea8
+  toPackageName :: [a] -> [a]
+  {- Arity: 1,
+     Unfolding: (\ @ a5 -> GHC.List.drop @ a5 Package.toPackage1) -}
+a5374432bbfd87c1d023f190de114548
+  toPackage_go ::
+    [[GHC.Types.Char]] -> [GHC.Types.Char] -> [GHC.Types.Char]
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,1*U> -}
+b57a8b5ae76c525083207ba7afca4198
+  toPackage_go1 ::
+    [[GHC.Types.Char]] -> [GHC.Types.Char] -> [GHC.Types.Char]
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,1*U> -}
+instance GHC.Generics.Constructor [Package.C1_0Package]
+  = Package.$fConstructorPackage
+instance GHC.Generics.Datatype [Package.D1Package]
+  = Package.$fDatatypePackage
+instance GHC.Classes.Eq [Package.Package] = Package.$fEqPackage
+instance Data.Aeson.Types.Class.FromJSON [Package.Package]
+  = Package.$fFromJSONPackage
+instance GHC.Generics.Generic [Package.Package]
+  = Package.$fGenericPackage
+instance GHC.Generics.Selector [Package.S1_0_0Package]
+  = Package.$fSelectorPackage
+instance GHC.Generics.Selector [Package.S1_0_1Package]
+  = Package.$fSelectorPackage0
+instance GHC.Generics.Selector [Package.S1_0_2Package]
+  = Package.$fSelectorPackage1
+instance GHC.Generics.Selector [Package.S1_0_3Package]
+  = Package.$fSelectorPackage2
+instance GHC.Show.Show [Package.Package] = Package.$fShowPackage
+instance Data.Aeson.Types.Class.ToJSON [Package.Package]
+  = Package.$fToJSONPackage
+family instance GHC.Generics.Rep [Package.Package]
+  = Package.Rep_Package
+"SPEC/Package $dmconFixity @ C1_0Package" [ALWAYS] forall $dConstructor :: GHC.Generics.Constructor
+                                                                             Package.C1_0Package
+  GHC.Generics.$dmconFixity @ Package.C1_0Package $dConstructor
+  = Package.$fConstructorPackage_$s$dmconFixity
+"SPEC/Package $dmisNewtype @ D1Package" [ALWAYS] forall $dDatatype :: GHC.Generics.Datatype
+                                                                        Package.D1Package
+  GHC.Generics.$dmisNewtype @ Package.D1Package $dDatatype
+  = Package.$fDatatypePackage_$s$dmisNewtype
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

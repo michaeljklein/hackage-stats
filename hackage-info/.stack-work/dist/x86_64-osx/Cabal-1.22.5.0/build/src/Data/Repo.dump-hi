@@ -1,0 +1,2946 @@
+
+==================== FINAL INTERFACE ====================
+2016-06-06 22:29:06.245327 UTC
+
+interface hacka_8AzqFXcXsXI1zCeqNUsPcm:Data.Repo [family instance module] 7103
+  interface hash: afe154901be83c3f1b2f3baae0467848
+  ABI hash: 4fee9d2c852c72dad1fa8108ad6fb8d0
+  export-list hash: 6cc8b3770cd02ed4138cf74140c63958
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 79b4db806cc450cbc1413e8c4a18dff1
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  Data.Repo.blankRepo
+  Data.Repo.created_at
+  Data.Repo.forks_count
+  Data.Repo.language
+  Data.Repo.network_count
+  Data.Repo.open_issues_count
+  Data.Repo.pushed_at
+  Data.Repo.size
+  Data.Repo.stargazers_count
+  Data.Repo.subscribers_count
+  Data.Repo.updated_at
+  Data.Repo.watchers
+  Data.Repo.watchers_count
+  Data.Repo.Date{Data.Repo.Date Data.Repo.day Data.Repo.month Data.Repo.year}
+  Data.Repo.Repo{Data.Repo.Repo Data.Repo._created_at Data.Repo._forks_count Data.Repo._language Data.Repo._network_count Data.Repo._open_issues_count Data.Repo._pushed_at Data.Repo._size Data.Repo._stargazers_count Data.Repo._subscribers_count Data.Repo._updated_at Data.Repo._watchers Data.Repo._watchers_count}
+module dependencies:
+package dependencies: StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      adjunctions-4.3@adjun_9cH29t7MfJW4aX0z24PvBh
+                      aeson-0.9.0.1@aeson_DFvprtDBUdB2suCwa7lgtv
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3 base-4.8.2.0
+                      base-orphans-0.5.4@baseo_0gFtKFBT26OGSKHmmdqdfx
+                      bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      comonad-4.2.7.2@comon_ANDyj4wNB0X1DshTxn1Ec7
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      contravariant-1.4@contr_GjopTtscFPI3wCyb9R8zUx
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      distributive-0.5.0.2@distr_55SIdsoyihS4jXBaaVvPQX
+                      dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui
+                      exceptions-0.8.2.1@excep_6lgwjdgwblY7rzh5s6SLd8
+                      free-4.12.4@free_6zsT0eU8oWW5hSQkbU0iac ghc-prim-0.4.0.0
+                      hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I integer-gmp-1.0.0.0
+                      kan-extensions-4.2.3@kanex_93YChxpKCPfJOIja4yoAht
+                      lens-4.13@lens_Ci1bEHnvDxuGKIIh54LOWH
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      prelude-extras-0.4.0.3@prelu_1gQpKVfMHul71LsAFgGRhv
+                      pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      profunctors-5.2@profu_3mp9Et5di2eBw26qSk1FvQ
+                      reflection-2.1.2@refle_Is9SiIf9zRHG2wDNDxPaS9
+                      scientific-0.3.4.6@scien_5s26qRhE5w04kI4pP1Rtwm
+                      semigroups-0.18.1@semig_G8J7ers5FBV50jV0jAmDo0
+                      semigroupoids-5.0.1@semig_GGZAZT6nvE937zJVPqetuF
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6 template-haskell-2.10.0.0
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      unordered-containers-0.2.5.1@unord_Kh4ayEkEku2Hr3yyCwld2j
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+orphans: aeson-0.9.0.1@aeson_DFvprtDBUdB2suCwa7lgtv:Data.Aeson.Types.Generic
+         aeson-0.9.0.1@aeson_DFvprtDBUdB2suCwa7lgtv:Data.Aeson.Types.Instances
+         attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3:Data.Attoparsec.ByteString.Char8
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         base-orphans-0.5.4@baseo_0gFtKFBT26OGSKHmmdqdfx:Data.Orphans
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I:Data.Hashable.Generic
+         reflection-2.1.2@refle_Is9SiIf9zRHG2wDNDxPaS9:Data.Reflection
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+family instance modules: adjunctions-4.3@adjun_9cH29t7MfJW4aX0z24PvBh:Data.Functor.Rep
+                         attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3:Data.Attoparsec.Internal.Types
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         base-4.8.2.0:GHC.TypeLits
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Biff
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Clown
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Flip
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Join
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Joker
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Product
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Sum
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Tannen
+                         bifunctors-5.2@bifun_AiMzIElJnc7BX2vj1Bxgh2:Data.Bifunctor.Wrapped
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui:Data.DList
+                         kan-extensions-4.2.3@kanex_93YChxpKCPfJOIja4yoAht:Data.Functor.Yoneda
+                         lens-4.13@lens_Ci1bEHnvDxuGKIIh54LOWH:Control.Lens.At
+                         lens-4.13@lens_Ci1bEHnvDxuGKIIh54LOWH:Control.Lens.Internal.Indexed
+                         lens-4.13@lens_Ci1bEHnvDxuGKIIh54LOWH:Control.Lens.Tuple
+                         pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         profunctors-5.2@profu_3mp9Et5di2eBw26qSk1FvQ:Data.Profunctor.Rep
+                         semigroups-0.18.1@semig_G8J7ers5FBV50jV0jAmDo0:Data.List.NonEmpty
+                         semigroups-0.18.1@semig_G8J7ers5FBV50jV0jAmDo0:Data.Semigroup
+                         tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6:Data.Tagged
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+                         unordered-containers-0.2.5.1@unord_Kh4ayEkEku2Hr3yyCwld2j:Data.HashMap.Base
+                         unordered-containers-0.2.5.1@unord_Kh4ayEkEku2Hr3yyCwld2j:Data.HashSet
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Primitive
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Storable
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed.Base
+import  -/  aeson-0.9.0.1@aeson_DFvprtDBUdB2suCwa7lgtv:Data.Aeson da66cb8f2b2fdb2aafcbaaa65fa7f5d3
+import  -/  aeson-0.9.0.1@aeson_DFvprtDBUdB2suCwa7lgtv:Data.Aeson.Types.Class 603192a71cea4e8347ea32097500c65c
+import  -/  base-4.8.2.0:Control.Applicative a8ebf5ad4932b411ad7725da68be9801
+import  -/  base-4.8.2.0:Data.Foldable 2ce969969ad5231eb40bd713f94f05ad
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.Generics c00a6d11ff9e9cf35a82831f837d9e97
+import  -/  base-4.8.2.0:GHC.Show 0e1d8380a8fb0cfb07ebeda3b70cbf38
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  integer-gmp-1.0.0.0:GHC.Integer.Type 371e90fe753f08ddedf0d2657a9ef5c4
+import  -/  lens-4.13@lens_Ci1bEHnvDxuGKIIh54LOWH:Control.Lens.TH 58dcac9e6fc108b7db12806c76a302cb
+import  -/  lens-4.13@lens_Ci1bEHnvDxuGKIIh54LOWH:Control.Lens.Type 7fb7adc243b85acfe4d0d6592af13c64
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text 455542f1de38979f085463a75ea8fadc
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Internal d9b6b9a9dd535595b612aea5738b7466
+478fa49348629109d6faefffd039c2a6
+  $fConstructorDate :: GHC.Generics.Constructor Data.Repo.C1_0Date
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Data.Repo.C1_0Date
+                  Data.Repo.$fConstructorDate_$cconName
+                  Data.Repo.$fConstructorDate_$s$dmconFixity
+                  Data.Repo.$fConstructorDate_$cconIsRecord -}
+e1d83d8b18e20a3d14361006df9c73d4
+  $fConstructorDate1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Date"#) -}
+478fa49348629109d6faefffd039c2a6
+  $fConstructorDate_$cconIsRecord ::
+    t Data.Repo.C1_0Date f a -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.C1_0Date f a9 ->
+                 GHC.Types.True) -}
+478fa49348629109d6faefffd039c2a6
+  $fConstructorDate_$cconName ::
+    t Data.Repo.C1_0Date f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.C1_0Date f a9 ->
+                 Data.Repo.$fConstructorDate1) -}
+478fa49348629109d6faefffd039c2a6
+  $fConstructorDate_$s$dmconFixity ::
+    t Data.Repo.C1_0Date f a -> GHC.Generics.Fixity
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.C1_0Date f a9 ->
+                 GHC.Generics.Prefix) -}
+d8c07e47c68e91a9b44ca36b5dc25c58
+  $fConstructorRepo :: GHC.Generics.Constructor Data.Repo.C1_0Repo
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Data.Repo.C1_0Repo
+                  Data.Repo.$fConstructorRepo_$cconName
+                  Data.Repo.$fConstructorRepo_$s$dmconFixity
+                  Data.Repo.$fConstructorRepo_$cconIsRecord -}
+c098cf648ddb71ce87c35821523f1853
+  $fConstructorRepo1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Repo"#) -}
+d8c07e47c68e91a9b44ca36b5dc25c58
+  $fConstructorRepo_$cconIsRecord ::
+    t Data.Repo.C1_0Repo f a -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.C1_0Repo f a9 ->
+                 GHC.Types.True) -}
+d8c07e47c68e91a9b44ca36b5dc25c58
+  $fConstructorRepo_$cconName ::
+    t Data.Repo.C1_0Repo f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.C1_0Repo f a9 ->
+                 Data.Repo.$fConstructorRepo1) -}
+d8c07e47c68e91a9b44ca36b5dc25c58
+  $fConstructorRepo_$s$dmconFixity ::
+    t Data.Repo.C1_0Repo f a -> GHC.Generics.Fixity
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.C1_0Repo f a9 ->
+                 GHC.Generics.Prefix) -}
+ecafeec8b25c06c8565d4027fbec45ff
+  $fDatatypeDate :: GHC.Generics.Datatype Data.Repo.D1Date
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Data.Repo.D1Date
+                  Data.Repo.$fDatatypeDate_$cdatatypeName
+                  Data.Repo.$fDatatypeDate_$cmoduleName
+                  Data.Repo.$fDatatypeDate_$s$dmisNewtype -}
+e87da9076dcb7ef2ff2fc3ac9d2e1bce
+  $fDatatypeDate1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Data.Repo"#) -}
+ecafeec8b25c06c8565d4027fbec45ff
+  $fDatatypeDate_$cdatatypeName ::
+    t Data.Repo.D1Date f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.D1Date f a9 ->
+                 Data.Repo.$fConstructorDate1) -}
+ecafeec8b25c06c8565d4027fbec45ff
+  $fDatatypeDate_$cmoduleName ::
+    t Data.Repo.D1Date f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.D1Date f a9 ->
+                 Data.Repo.$fDatatypeDate1) -}
+ecafeec8b25c06c8565d4027fbec45ff
+  $fDatatypeDate_$s$dmisNewtype ::
+    t Data.Repo.D1Date f a -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.D1Date f a9 ->
+                 GHC.Types.False) -}
+1f282d063d310e1f18e3d593b3d82e24
+  $fDatatypeRepo :: GHC.Generics.Datatype Data.Repo.D1Repo
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Data.Repo.D1Repo
+                  Data.Repo.$fDatatypeRepo_$cdatatypeName
+                  Data.Repo.$fDatatypeRepo_$cmoduleName
+                  Data.Repo.$fDatatypeRepo_$s$dmisNewtype -}
+1f282d063d310e1f18e3d593b3d82e24
+  $fDatatypeRepo_$cdatatypeName ::
+    t Data.Repo.D1Repo f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.D1Repo f a9 ->
+                 Data.Repo.$fConstructorRepo1) -}
+1f282d063d310e1f18e3d593b3d82e24
+  $fDatatypeRepo_$cmoduleName ::
+    t Data.Repo.D1Repo f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.D1Repo f a9 ->
+                 Data.Repo.$fDatatypeDate1) -}
+1f282d063d310e1f18e3d593b3d82e24
+  $fDatatypeRepo_$s$dmisNewtype ::
+    t Data.Repo.D1Repo f a -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.D1Repo f a9 ->
+                 GHC.Types.False) -}
+7f9561f7019b77780207c9de609c4778
+  $fEqDate :: GHC.Classes.Eq Data.Repo.Date
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Data.Repo.Date Data.Repo.$fEqDate_$c== Data.Repo.$fEqDate_$c/= -}
+7f9561f7019b77780207c9de609c4778
+  $fEqDate_$c/= :: Data.Repo.Date -> Data.Repo.Date -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SLL),1*U(1*U,1*U,1*U)><S(SLL),1*U(1*U,1*U,1*U)>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a9 :: Data.Repo.Date b :: Data.Repo.Date ->
+                 case Data.Repo.$fEqDate_$c== a9 b of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+7f9561f7019b77780207c9de609c4778
+  $fEqDate_$c== :: Data.Repo.Date -> Data.Repo.Date -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SLL),1*U(1*U,1*U,1*U)><S(SLL),1*U(1*U,1*U,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: Data.Repo.Date w1 :: Data.Repo.Date ->
+                 case w of ww { Data.Repo.Date ww1 ww2 ww3 ->
+                 case w1 of ww4 { Data.Repo.Date ww5 ww6 ww7 ->
+                 Data.Repo.$w$c== ww1 ww2 ww3 ww5 ww6 ww7 } }) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fEqRepo :: GHC.Classes.Eq Data.Repo.Repo
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Data.Repo.Repo Data.Repo.$fEqRepo_$c== Data.Repo.$fEqRepo_$c/= -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fEqRepo_$c/= :: Data.Repo.Repo -> Data.Repo.Repo -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SLLLLLLLLLLL),1*U(1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U)><S(SLLLLLLLLLLL),1*U(1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U)>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a9 :: Data.Repo.Repo b :: Data.Repo.Repo ->
+                 case Data.Repo.$fEqRepo_$c== a9 b of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fEqRepo_$c== :: Data.Repo.Repo -> Data.Repo.Repo -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SLLLLLLLLLLL),1*U(1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U)><S(SLLLLLLLLLLL),1*U(1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: Data.Repo.Repo w1 :: Data.Repo.Repo ->
+                 case w of ww { Data.Repo.Repo ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ->
+                 case w1 of ww13 { Data.Repo.Repo ww14 ww15 ww16 ww17 ww18 ww19 ww20 ww21 ww22 ww23 ww24 ww25 ->
+                 Data.Repo.$w$c==1
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   ww5
+                   ww6
+                   ww7
+                   ww8
+                   ww9
+                   ww10
+                   ww11
+                   ww12
+                   ww14
+                   ww15
+                   ww16
+                   ww17
+                   ww18
+                   ww19
+                   ww20
+                   ww21
+                   ww22
+                   ww23
+                   ww24
+                   ww25 } }) -}
+7f9561f7019b77780207c9de609c4778
+  $fFromJSONDate :: Data.Aeson.Types.Class.FromJSON Data.Repo.Date
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fFromJSONDate_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <Data.Repo.Date>_N)) -}
+7f9561f7019b77780207c9de609c4778
+  $fFromJSONDate1 ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser
+         (GHC.Generics.M1
+            GHC.Generics.D
+            Data.Repo.D1Date
+            (GHC.Generics.M1
+               GHC.Generics.C
+               Data.Repo.C1_0Date
+               (GHC.Generics.S1
+                  Data.Repo.S1_0_0Date (GHC.Generics.Rec0 GHC.Integer.Type.Integer)
+                GHC.Generics.:*: (GHC.Generics.S1
+                                    Data.Repo.S1_0_1Date
+                                    (GHC.Generics.Rec0 GHC.Integer.Type.Integer)
+                                  GHC.Generics.:*: GHC.Generics.S1
+                                                     Data.Repo.S1_0_2Date
+                                                     (GHC.Generics.Rec0 GHC.Integer.Type.Integer))))
+            GHC.Prim.Any)
+  {- Arity: 1, Strictness: <L,1*U> -}
+7f9561f7019b77780207c9de609c4778
+  $fFromJSONDate_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser Data.Repo.Date
+  {- Arity: 1, Strictness: <L,1*U>,
+     Unfolding: (\ x :: Data.Aeson.Types.Internal.Value ->
+                 let {
+                   a9 :: Data.Aeson.Types.Internal.Parser
+                           (GHC.Generics.M1
+                              GHC.Generics.D
+                              Data.Repo.D1Date
+                              (GHC.Generics.M1
+                                 GHC.Generics.C
+                                 Data.Repo.C1_0Date
+                                 (GHC.Generics.S1
+                                    Data.Repo.S1_0_0Date
+                                    (GHC.Generics.Rec0 GHC.Integer.Type.Integer)
+                                  GHC.Generics.:*: (GHC.Generics.S1
+                                                      Data.Repo.S1_0_1Date
+                                                      (GHC.Generics.Rec0 GHC.Integer.Type.Integer)
+                                                    GHC.Generics.:*: GHC.Generics.S1
+                                                                       Data.Repo.S1_0_2Date
+                                                                       (GHC.Generics.Rec0
+                                                                          GHC.Integer.Type.Integer))))
+                              GHC.Prim.Any)
+                   = Data.Repo.$fFromJSONDate1 x
+                 } in
+                 (\ @ (f1 :: * -> *)
+                    @ r
+                    kf :: Data.Aeson.Types.Internal.Failure f1 r
+                    ks :: Data.Aeson.Types.Internal.Success Data.Repo.Date f1 r ->
+                  a9
+                    `cast`
+                  (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                       (Sub (Sym (Data.Repo.Rep_Date[0])) <GHC.Prim.Any>_N))
+                    @ f1
+                    @ r
+                    kf
+                    (\ a30 :: GHC.Generics.Rep Data.Repo.Date GHC.Prim.Any ->
+                     ks (Data.Repo.$fFromJSONDate_$cto @ GHC.Prim.Any a30)))
+                   `cast`
+                 (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                           <Data.Repo.Date>_R))) -}
+7f9561f7019b77780207c9de609c4778
+  $fFromJSONDate_$cto ::
+    GHC.Generics.Rep Data.Repo.Date x -> Data.Repo.Date
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(U,1*U(U,U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x ds :: GHC.Generics.Rep Data.Repo.Date x ->
+                 case ds
+                        `cast`
+                      (Trans
+                           (Sub (Data.Repo.Rep_Date[0]))
+                           (Trans
+                                (GHC.Generics.NTCo:M1[0]
+                                     <GHC.Generics.D>_P
+                                     <Data.Repo.D1Date>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.C
+                                        Data.Repo.C1_0Date
+                                        (GHC.Generics.M1
+                                           GHC.Generics.S
+                                           Data.Repo.S1_0_0Date
+                                           (GHC.Generics.K1 GHC.Generics.R GHC.Integer.Type.Integer)
+                                         GHC.Generics.:*: (GHC.Generics.M1
+                                                             GHC.Generics.S
+                                                             Data.Repo.S1_0_1Date
+                                                             (GHC.Generics.K1
+                                                                GHC.Generics.R
+                                                                GHC.Integer.Type.Integer)
+                                                           GHC.Generics.:*: GHC.Generics.M1
+                                                                              GHC.Generics.S
+                                                                              Data.Repo.S1_0_2Date
+                                                                              (GHC.Generics.K1
+                                                                                 GHC.Generics.R
+                                                                                 GHC.Integer.Type.Integer)))>_R)
+                                (GHC.Generics.NTCo:M1[0]
+                                     <GHC.Generics.C>_P
+                                     <Data.Repo.C1_0Date>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.S
+                                        Data.Repo.S1_0_0Date
+                                        (GHC.Generics.K1 GHC.Generics.R GHC.Integer.Type.Integer)
+                                      GHC.Generics.:*: (GHC.Generics.M1
+                                                          GHC.Generics.S
+                                                          Data.Repo.S1_0_1Date
+                                                          (GHC.Generics.K1
+                                                             GHC.Generics.R
+                                                             GHC.Integer.Type.Integer)
+                                                        GHC.Generics.:*: GHC.Generics.M1
+                                                                           GHC.Generics.S
+                                                                           Data.Repo.S1_0_2Date
+                                                                           (GHC.Generics.K1
+                                                                              GHC.Generics.R
+                                                                              GHC.Integer.Type.Integer))>_R)) <x>_N) of wild { GHC.Generics.:*: ds1 ds2 ->
+                 case ds2 of wild1 { GHC.Generics.:*: ds3 ds4 ->
+                 Data.Repo.Date
+                   ds1
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Data.Repo.S1_0_0Date>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Integer.Type.Integer>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Integer.Type.Integer>_R <x>_P))
+                   ds3
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Data.Repo.S1_0_1Date>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Integer.Type.Integer>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Integer.Type.Integer>_R <x>_P))
+                   ds4
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Data.Repo.S1_0_2Date>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Integer.Type.Integer>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Integer.Type.Integer>_R <x>_P)) } }) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fFromJSONRepo :: Data.Aeson.Types.Class.FromJSON Data.Repo.Repo
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fFromJSONRepo_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <Data.Repo.Repo>_N)) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fFromJSONRepo_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser Data.Repo.Repo
+  {- Arity: 1, Strictness: <L,1*U> -}
+7f9561f7019b77780207c9de609c4778
+  $fGenericDate :: GHC.Generics.Generic Data.Repo.Date
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Data.Repo.Date
+                  Data.Repo.$fGenericDate_$cfrom
+                  Data.Repo.$fFromJSONDate_$cto -}
+7f9561f7019b77780207c9de609c4778
+  $fGenericDate_$cfrom ::
+    Data.Repo.Date -> GHC.Generics.Rep Data.Repo.Date x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x ds :: Data.Repo.Date ->
+                 case ds of wild { Data.Repo.Date g1 g2 g3 ->
+                 (GHC.Generics.:*:
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         Data.Repo.S1_0_0Date
+                         (GHC.Generics.K1 GHC.Generics.R GHC.Integer.Type.Integer))
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         Data.Repo.S1_0_1Date
+                         (GHC.Generics.K1 GHC.Generics.R GHC.Integer.Type.Integer)
+                       GHC.Generics.:*: GHC.Generics.M1
+                                          GHC.Generics.S
+                                          Data.Repo.S1_0_2Date
+                                          (GHC.Generics.K1 GHC.Generics.R GHC.Integer.Type.Integer))
+                    @ x
+                    g1
+                      `cast`
+                    (Trans
+                         (Sym (GHC.Generics.NTCo:K1[0]
+                                   <GHC.Generics.R>_P <GHC.Integer.Type.Integer>_R <x>_P))
+                         (Sym (GHC.Generics.NTCo:M1[0]
+                                   <GHC.Generics.S>_P
+                                   <Data.Repo.S1_0_0Date>_P
+                                   <GHC.Generics.K1
+                                      GHC.Generics.R GHC.Integer.Type.Integer>_R) <x>_N))
+                    (GHC.Generics.:*:
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            Data.Repo.S1_0_1Date
+                            (GHC.Generics.K1 GHC.Generics.R GHC.Integer.Type.Integer))
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            Data.Repo.S1_0_2Date
+                            (GHC.Generics.K1 GHC.Generics.R GHC.Integer.Type.Integer))
+                       @ x
+                       g2
+                         `cast`
+                       (Trans
+                            (Sym (GHC.Generics.NTCo:K1[0]
+                                      <GHC.Generics.R>_P <GHC.Integer.Type.Integer>_R <x>_P))
+                            (Sym (GHC.Generics.NTCo:M1[0]
+                                      <GHC.Generics.S>_P
+                                      <Data.Repo.S1_0_1Date>_P
+                                      <GHC.Generics.K1
+                                         GHC.Generics.R GHC.Integer.Type.Integer>_R) <x>_N))
+                       g3
+                         `cast`
+                       (Trans
+                            (Sym (GHC.Generics.NTCo:K1[0]
+                                      <GHC.Generics.R>_P <GHC.Integer.Type.Integer>_R <x>_P))
+                            (Sym (GHC.Generics.NTCo:M1[0]
+                                      <GHC.Generics.S>_P
+                                      <Data.Repo.S1_0_2Date>_P
+                                      <GHC.Generics.K1
+                                         GHC.Generics.R GHC.Integer.Type.Integer>_R) <x>_N))))
+                   `cast`
+                 (Trans
+                      (Sym (GHC.Generics.NTCo:M1[0]
+                                <GHC.Generics.C>_P
+                                <Data.Repo.C1_0Date>_P
+                                <GHC.Generics.M1
+                                   GHC.Generics.S
+                                   Data.Repo.S1_0_0Date
+                                   (GHC.Generics.K1 GHC.Generics.R GHC.Integer.Type.Integer)
+                                 GHC.Generics.:*: (GHC.Generics.M1
+                                                     GHC.Generics.S
+                                                     Data.Repo.S1_0_1Date
+                                                     (GHC.Generics.K1
+                                                        GHC.Generics.R GHC.Integer.Type.Integer)
+                                                   GHC.Generics.:*: GHC.Generics.M1
+                                                                      GHC.Generics.S
+                                                                      Data.Repo.S1_0_2Date
+                                                                      (GHC.Generics.K1
+                                                                         GHC.Generics.R
+                                                                         GHC.Integer.Type.Integer))>_R))
+                      (Trans
+                           (Sym (GHC.Generics.NTCo:M1[0]
+                                     <GHC.Generics.D>_P
+                                     <Data.Repo.D1Date>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.C
+                                        Data.Repo.C1_0Date
+                                        (GHC.Generics.M1
+                                           GHC.Generics.S
+                                           Data.Repo.S1_0_0Date
+                                           (GHC.Generics.K1 GHC.Generics.R GHC.Integer.Type.Integer)
+                                         GHC.Generics.:*: (GHC.Generics.M1
+                                                             GHC.Generics.S
+                                                             Data.Repo.S1_0_1Date
+                                                             (GHC.Generics.K1
+                                                                GHC.Generics.R
+                                                                GHC.Integer.Type.Integer)
+                                                           GHC.Generics.:*: GHC.Generics.M1
+                                                                              GHC.Generics.S
+                                                                              Data.Repo.S1_0_2Date
+                                                                              (GHC.Generics.K1
+                                                                                 GHC.Generics.R
+                                                                                 GHC.Integer.Type.Integer)))>_R))
+                           (Sub (Sym (Data.Repo.Rep_Date[0])))) <x>_N) }) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fGenericRepo :: GHC.Generics.Generic Data.Repo.Repo
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Data.Repo.Repo
+                  Data.Repo.$fGenericRepo_$cfrom
+                  Data.Repo.$fGenericRepo_$cto -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fGenericRepo_$cfrom ::
+    Data.Repo.Repo -> GHC.Generics.Rep Data.Repo.Repo x
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S,1*U(U,U,U,U,U,U,U,U,U,U,U,U)>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x w :: Data.Repo.Repo ->
+                 case w of ww { Data.Repo.Repo ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ->
+                 (GHC.Generics.:*:
+                    @ ((GHC.Generics.S1
+                          Data.Repo.S1_0_0Repo
+                          (GHC.Generics.Rec0 (GHC.Base.Maybe Data.Repo.Date))
+                        GHC.Generics.:*: (GHC.Generics.S1
+                                            Data.Repo.S1_0_1Repo
+                                            (GHC.Generics.Rec0 (GHC.Base.Maybe Data.Repo.Date))
+                                          GHC.Generics.:*: GHC.Generics.S1
+                                                             Data.Repo.S1_0_2Repo
+                                                             (GHC.Generics.Rec0
+                                                                (GHC.Base.Maybe Data.Repo.Date))))
+                       GHC.Generics.:*: (GHC.Generics.S1
+                                           Data.Repo.S1_0_3Repo
+                                           (GHC.Generics.Rec0
+                                              (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                                         GHC.Generics.:*: (GHC.Generics.S1
+                                                             Data.Repo.S1_0_4Repo
+                                                             (GHC.Generics.Rec0
+                                                                (GHC.Base.Maybe
+                                                                   GHC.Integer.Type.Integer))
+                                                           GHC.Generics.:*: GHC.Generics.S1
+                                                                              Data.Repo.S1_0_5Repo
+                                                                              (GHC.Generics.Rec0
+                                                                                 (GHC.Base.Maybe
+                                                                                    GHC.Integer.Type.Integer)))))
+                    @ ((GHC.Generics.S1
+                          Data.Repo.S1_0_6Repo
+                          (GHC.Generics.Rec0 (GHC.Base.Maybe Data.Text.Internal.Text))
+                        GHC.Generics.:*: (GHC.Generics.S1
+                                            Data.Repo.S1_0_7Repo
+                                            (GHC.Generics.Rec0
+                                               (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                                          GHC.Generics.:*: GHC.Generics.S1
+                                                             Data.Repo.S1_0_8Repo
+                                                             (GHC.Generics.Rec0
+                                                                (GHC.Base.Maybe
+                                                                   GHC.Integer.Type.Integer))))
+                       GHC.Generics.:*: (GHC.Generics.S1
+                                           Data.Repo.S1_0_9Repo
+                                           (GHC.Generics.Rec0
+                                              (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                                         GHC.Generics.:*: (GHC.Generics.S1
+                                                             Data.Repo.S1_0_10Repo
+                                                             (GHC.Generics.Rec0
+                                                                (GHC.Base.Maybe
+                                                                   GHC.Integer.Type.Integer))
+                                                           GHC.Generics.:*: GHC.Generics.S1
+                                                                              Data.Repo.S1_0_11Repo
+                                                                              (GHC.Generics.Rec0
+                                                                                 (GHC.Base.Maybe
+                                                                                    GHC.Integer.Type.Integer)))))
+                    @ x
+                    (GHC.Generics.:*:
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            Data.Repo.S1_0_0Repo
+                            (GHC.Generics.K1 GHC.Generics.R (GHC.Base.Maybe Data.Repo.Date))
+                          GHC.Generics.:*: (GHC.Generics.M1
+                                              GHC.Generics.S
+                                              Data.Repo.S1_0_1Repo
+                                              (GHC.Generics.K1
+                                                 GHC.Generics.R (GHC.Base.Maybe Data.Repo.Date))
+                                            GHC.Generics.:*: GHC.Generics.M1
+                                                               GHC.Generics.S
+                                                               Data.Repo.S1_0_2Repo
+                                                               (GHC.Generics.K1
+                                                                  GHC.Generics.R
+                                                                  (GHC.Base.Maybe Data.Repo.Date))))
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            Data.Repo.S1_0_3Repo
+                            (GHC.Generics.K1
+                               GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                          GHC.Generics.:*: (GHC.Generics.M1
+                                              GHC.Generics.S
+                                              Data.Repo.S1_0_4Repo
+                                              (GHC.Generics.K1
+                                                 GHC.Generics.R
+                                                 (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                                            GHC.Generics.:*: GHC.Generics.M1
+                                                               GHC.Generics.S
+                                                               Data.Repo.S1_0_5Repo
+                                                               (GHC.Generics.K1
+                                                                  GHC.Generics.R
+                                                                  (GHC.Base.Maybe
+                                                                     GHC.Integer.Type.Integer))))
+                       @ x
+                       (GHC.Generics.:*:
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               Data.Repo.S1_0_0Repo
+                               (GHC.Generics.K1 GHC.Generics.R (GHC.Base.Maybe Data.Repo.Date)))
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               Data.Repo.S1_0_1Repo
+                               (GHC.Generics.K1 GHC.Generics.R (GHC.Base.Maybe Data.Repo.Date))
+                             GHC.Generics.:*: GHC.Generics.M1
+                                                GHC.Generics.S
+                                                Data.Repo.S1_0_2Repo
+                                                (GHC.Generics.K1
+                                                   GHC.Generics.R (GHC.Base.Maybe Data.Repo.Date)))
+                          @ x
+                          ww1
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.NTCo:K1[0]
+                                         <GHC.Generics.R>_P
+                                         <GHC.Base.Maybe Data.Repo.Date>_R
+                                         <x>_P))
+                               (Sym (GHC.Generics.NTCo:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <Data.Repo.S1_0_0Repo>_P
+                                         <GHC.Generics.K1
+                                            GHC.Generics.R
+                                            (GHC.Base.Maybe Data.Repo.Date)>_R) <x>_N))
+                          (GHC.Generics.:*:
+                             @ (GHC.Generics.M1
+                                  GHC.Generics.S
+                                  Data.Repo.S1_0_1Repo
+                                  (GHC.Generics.K1 GHC.Generics.R (GHC.Base.Maybe Data.Repo.Date)))
+                             @ (GHC.Generics.M1
+                                  GHC.Generics.S
+                                  Data.Repo.S1_0_2Repo
+                                  (GHC.Generics.K1 GHC.Generics.R (GHC.Base.Maybe Data.Repo.Date)))
+                             @ x
+                             ww2
+                               `cast`
+                             (Trans
+                                  (Sym (GHC.Generics.NTCo:K1[0]
+                                            <GHC.Generics.R>_P
+                                            <GHC.Base.Maybe Data.Repo.Date>_R
+                                            <x>_P))
+                                  (Sym (GHC.Generics.NTCo:M1[0]
+                                            <GHC.Generics.S>_P
+                                            <Data.Repo.S1_0_1Repo>_P
+                                            <GHC.Generics.K1
+                                               GHC.Generics.R
+                                               (GHC.Base.Maybe Data.Repo.Date)>_R) <x>_N))
+                             ww3
+                               `cast`
+                             (Trans
+                                  (Sym (GHC.Generics.NTCo:K1[0]
+                                            <GHC.Generics.R>_P
+                                            <GHC.Base.Maybe Data.Repo.Date>_R
+                                            <x>_P))
+                                  (Sym (GHC.Generics.NTCo:M1[0]
+                                            <GHC.Generics.S>_P
+                                            <Data.Repo.S1_0_2Repo>_P
+                                            <GHC.Generics.K1
+                                               GHC.Generics.R
+                                               (GHC.Base.Maybe Data.Repo.Date)>_R) <x>_N))))
+                       (GHC.Generics.:*:
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               Data.Repo.S1_0_3Repo
+                               (GHC.Generics.K1
+                                  GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               Data.Repo.S1_0_4Repo
+                               (GHC.Generics.K1
+                                  GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                             GHC.Generics.:*: GHC.Generics.M1
+                                                GHC.Generics.S
+                                                Data.Repo.S1_0_5Repo
+                                                (GHC.Generics.K1
+                                                   GHC.Generics.R
+                                                   (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                          @ x
+                          ww4
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.NTCo:K1[0]
+                                         <GHC.Generics.R>_P
+                                         <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                         <x>_P))
+                               (Sym (GHC.Generics.NTCo:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <Data.Repo.S1_0_3Repo>_P
+                                         <GHC.Generics.K1
+                                            GHC.Generics.R
+                                            (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R) <x>_N))
+                          (GHC.Generics.:*:
+                             @ (GHC.Generics.M1
+                                  GHC.Generics.S
+                                  Data.Repo.S1_0_4Repo
+                                  (GHC.Generics.K1
+                                     GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                             @ (GHC.Generics.M1
+                                  GHC.Generics.S
+                                  Data.Repo.S1_0_5Repo
+                                  (GHC.Generics.K1
+                                     GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                             @ x
+                             ww5
+                               `cast`
+                             (Trans
+                                  (Sym (GHC.Generics.NTCo:K1[0]
+                                            <GHC.Generics.R>_P
+                                            <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                            <x>_P))
+                                  (Sym (GHC.Generics.NTCo:M1[0]
+                                            <GHC.Generics.S>_P
+                                            <Data.Repo.S1_0_4Repo>_P
+                                            <GHC.Generics.K1
+                                               GHC.Generics.R
+                                               (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R) <x>_N))
+                             ww6
+                               `cast`
+                             (Trans
+                                  (Sym (GHC.Generics.NTCo:K1[0]
+                                            <GHC.Generics.R>_P
+                                            <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                            <x>_P))
+                                  (Sym (GHC.Generics.NTCo:M1[0]
+                                            <GHC.Generics.S>_P
+                                            <Data.Repo.S1_0_5Repo>_P
+                                            <GHC.Generics.K1
+                                               GHC.Generics.R
+                                               (GHC.Base.Maybe
+                                                  GHC.Integer.Type.Integer)>_R) <x>_N)))))
+                    (GHC.Generics.:*:
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            Data.Repo.S1_0_6Repo
+                            (GHC.Generics.K1
+                               GHC.Generics.R (GHC.Base.Maybe Data.Text.Internal.Text))
+                          GHC.Generics.:*: (GHC.Generics.M1
+                                              GHC.Generics.S
+                                              Data.Repo.S1_0_7Repo
+                                              (GHC.Generics.K1
+                                                 GHC.Generics.R
+                                                 (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                                            GHC.Generics.:*: GHC.Generics.M1
+                                                               GHC.Generics.S
+                                                               Data.Repo.S1_0_8Repo
+                                                               (GHC.Generics.K1
+                                                                  GHC.Generics.R
+                                                                  (GHC.Base.Maybe
+                                                                     GHC.Integer.Type.Integer))))
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            Data.Repo.S1_0_9Repo
+                            (GHC.Generics.K1
+                               GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                          GHC.Generics.:*: (GHC.Generics.M1
+                                              GHC.Generics.S
+                                              Data.Repo.S1_0_10Repo
+                                              (GHC.Generics.K1
+                                                 GHC.Generics.R
+                                                 (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                                            GHC.Generics.:*: GHC.Generics.M1
+                                                               GHC.Generics.S
+                                                               Data.Repo.S1_0_11Repo
+                                                               (GHC.Generics.K1
+                                                                  GHC.Generics.R
+                                                                  (GHC.Base.Maybe
+                                                                     GHC.Integer.Type.Integer))))
+                       @ x
+                       (GHC.Generics.:*:
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               Data.Repo.S1_0_6Repo
+                               (GHC.Generics.K1
+                                  GHC.Generics.R (GHC.Base.Maybe Data.Text.Internal.Text)))
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               Data.Repo.S1_0_7Repo
+                               (GHC.Generics.K1
+                                  GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                             GHC.Generics.:*: GHC.Generics.M1
+                                                GHC.Generics.S
+                                                Data.Repo.S1_0_8Repo
+                                                (GHC.Generics.K1
+                                                   GHC.Generics.R
+                                                   (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                          @ x
+                          ww7
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.NTCo:K1[0]
+                                         <GHC.Generics.R>_P
+                                         <GHC.Base.Maybe Data.Text.Internal.Text>_R
+                                         <x>_P))
+                               (Sym (GHC.Generics.NTCo:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <Data.Repo.S1_0_6Repo>_P
+                                         <GHC.Generics.K1
+                                            GHC.Generics.R
+                                            (GHC.Base.Maybe Data.Text.Internal.Text)>_R) <x>_N))
+                          (GHC.Generics.:*:
+                             @ (GHC.Generics.M1
+                                  GHC.Generics.S
+                                  Data.Repo.S1_0_7Repo
+                                  (GHC.Generics.K1
+                                     GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                             @ (GHC.Generics.M1
+                                  GHC.Generics.S
+                                  Data.Repo.S1_0_8Repo
+                                  (GHC.Generics.K1
+                                     GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                             @ x
+                             ww8
+                               `cast`
+                             (Trans
+                                  (Sym (GHC.Generics.NTCo:K1[0]
+                                            <GHC.Generics.R>_P
+                                            <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                            <x>_P))
+                                  (Sym (GHC.Generics.NTCo:M1[0]
+                                            <GHC.Generics.S>_P
+                                            <Data.Repo.S1_0_7Repo>_P
+                                            <GHC.Generics.K1
+                                               GHC.Generics.R
+                                               (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R) <x>_N))
+                             ww9
+                               `cast`
+                             (Trans
+                                  (Sym (GHC.Generics.NTCo:K1[0]
+                                            <GHC.Generics.R>_P
+                                            <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                            <x>_P))
+                                  (Sym (GHC.Generics.NTCo:M1[0]
+                                            <GHC.Generics.S>_P
+                                            <Data.Repo.S1_0_8Repo>_P
+                                            <GHC.Generics.K1
+                                               GHC.Generics.R
+                                               (GHC.Base.Maybe
+                                                  GHC.Integer.Type.Integer)>_R) <x>_N))))
+                       (GHC.Generics.:*:
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               Data.Repo.S1_0_9Repo
+                               (GHC.Generics.K1
+                                  GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               Data.Repo.S1_0_10Repo
+                               (GHC.Generics.K1
+                                  GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                             GHC.Generics.:*: GHC.Generics.M1
+                                                GHC.Generics.S
+                                                Data.Repo.S1_0_11Repo
+                                                (GHC.Generics.K1
+                                                   GHC.Generics.R
+                                                   (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                          @ x
+                          ww10
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.NTCo:K1[0]
+                                         <GHC.Generics.R>_P
+                                         <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                         <x>_P))
+                               (Sym (GHC.Generics.NTCo:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <Data.Repo.S1_0_9Repo>_P
+                                         <GHC.Generics.K1
+                                            GHC.Generics.R
+                                            (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R) <x>_N))
+                          (GHC.Generics.:*:
+                             @ (GHC.Generics.M1
+                                  GHC.Generics.S
+                                  Data.Repo.S1_0_10Repo
+                                  (GHC.Generics.K1
+                                     GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                             @ (GHC.Generics.M1
+                                  GHC.Generics.S
+                                  Data.Repo.S1_0_11Repo
+                                  (GHC.Generics.K1
+                                     GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                             @ x
+                             ww11
+                               `cast`
+                             (Trans
+                                  (Sym (GHC.Generics.NTCo:K1[0]
+                                            <GHC.Generics.R>_P
+                                            <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                            <x>_P))
+                                  (Sym (GHC.Generics.NTCo:M1[0]
+                                            <GHC.Generics.S>_P
+                                            <Data.Repo.S1_0_10Repo>_P
+                                            <GHC.Generics.K1
+                                               GHC.Generics.R
+                                               (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R) <x>_N))
+                             ww12
+                               `cast`
+                             (Trans
+                                  (Sym (GHC.Generics.NTCo:K1[0]
+                                            <GHC.Generics.R>_P
+                                            <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                            <x>_P))
+                                  (Sym (GHC.Generics.NTCo:M1[0]
+                                            <GHC.Generics.S>_P
+                                            <Data.Repo.S1_0_11Repo>_P
+                                            <GHC.Generics.K1
+                                               GHC.Generics.R
+                                               (GHC.Base.Maybe
+                                                  GHC.Integer.Type.Integer)>_R) <x>_N))))))
+                   `cast`
+                 (Trans
+                      (Sym (GHC.Generics.NTCo:M1[0]
+                                <GHC.Generics.C>_P
+                                <Data.Repo.C1_0Repo>_P
+                                <((GHC.Generics.S1
+                                     Data.Repo.S1_0_0Repo
+                                     (GHC.Generics.Rec0 (GHC.Base.Maybe Data.Repo.Date))
+                                   GHC.Generics.:*: (GHC.Generics.S1
+                                                       Data.Repo.S1_0_1Repo
+                                                       (GHC.Generics.Rec0
+                                                          (GHC.Base.Maybe Data.Repo.Date))
+                                                     GHC.Generics.:*: GHC.Generics.S1
+                                                                        Data.Repo.S1_0_2Repo
+                                                                        (GHC.Generics.Rec0
+                                                                           (GHC.Base.Maybe
+                                                                              Data.Repo.Date))))
+                                  GHC.Generics.:*: (GHC.Generics.S1
+                                                      Data.Repo.S1_0_3Repo
+                                                      (GHC.Generics.Rec0
+                                                         (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                                                    GHC.Generics.:*: (GHC.Generics.S1
+                                                                        Data.Repo.S1_0_4Repo
+                                                                        (GHC.Generics.Rec0
+                                                                           (GHC.Base.Maybe
+                                                                              GHC.Integer.Type.Integer))
+                                                                      GHC.Generics.:*: GHC.Generics.S1
+                                                                                         Data.Repo.S1_0_5Repo
+                                                                                         (GHC.Generics.Rec0
+                                                                                            (GHC.Base.Maybe
+                                                                                               GHC.Integer.Type.Integer)))))
+                                 GHC.Generics.:*: ((GHC.Generics.S1
+                                                      Data.Repo.S1_0_6Repo
+                                                      (GHC.Generics.Rec0
+                                                         (GHC.Base.Maybe Data.Text.Internal.Text))
+                                                    GHC.Generics.:*: (GHC.Generics.S1
+                                                                        Data.Repo.S1_0_7Repo
+                                                                        (GHC.Generics.Rec0
+                                                                           (GHC.Base.Maybe
+                                                                              GHC.Integer.Type.Integer))
+                                                                      GHC.Generics.:*: GHC.Generics.S1
+                                                                                         Data.Repo.S1_0_8Repo
+                                                                                         (GHC.Generics.Rec0
+                                                                                            (GHC.Base.Maybe
+                                                                                               GHC.Integer.Type.Integer))))
+                                                   GHC.Generics.:*: (GHC.Generics.S1
+                                                                       Data.Repo.S1_0_9Repo
+                                                                       (GHC.Generics.Rec0
+                                                                          (GHC.Base.Maybe
+                                                                             GHC.Integer.Type.Integer))
+                                                                     GHC.Generics.:*: (GHC.Generics.S1
+                                                                                         Data.Repo.S1_0_10Repo
+                                                                                         (GHC.Generics.Rec0
+                                                                                            (GHC.Base.Maybe
+                                                                                               GHC.Integer.Type.Integer))
+                                                                                       GHC.Generics.:*: GHC.Generics.S1
+                                                                                                          Data.Repo.S1_0_11Repo
+                                                                                                          (GHC.Generics.Rec0
+                                                                                                             (GHC.Base.Maybe
+                                                                                                                GHC.Integer.Type.Integer)))))>_R))
+                      (Trans
+                           (Sym (GHC.Generics.NTCo:M1[0]
+                                     <GHC.Generics.D>_P
+                                     <Data.Repo.D1Repo>_P
+                                     <GHC.Generics.C1
+                                        Data.Repo.C1_0Repo
+                                        (((GHC.Generics.S1
+                                             Data.Repo.S1_0_0Repo
+                                             (GHC.Generics.Rec0 (GHC.Base.Maybe Data.Repo.Date))
+                                           GHC.Generics.:*: (GHC.Generics.S1
+                                                               Data.Repo.S1_0_1Repo
+                                                               (GHC.Generics.Rec0
+                                                                  (GHC.Base.Maybe Data.Repo.Date))
+                                                             GHC.Generics.:*: GHC.Generics.S1
+                                                                                Data.Repo.S1_0_2Repo
+                                                                                (GHC.Generics.Rec0
+                                                                                   (GHC.Base.Maybe
+                                                                                      Data.Repo.Date))))
+                                          GHC.Generics.:*: (GHC.Generics.S1
+                                                              Data.Repo.S1_0_3Repo
+                                                              (GHC.Generics.Rec0
+                                                                 (GHC.Base.Maybe
+                                                                    GHC.Integer.Type.Integer))
+                                                            GHC.Generics.:*: (GHC.Generics.S1
+                                                                                Data.Repo.S1_0_4Repo
+                                                                                (GHC.Generics.Rec0
+                                                                                   (GHC.Base.Maybe
+                                                                                      GHC.Integer.Type.Integer))
+                                                                              GHC.Generics.:*: GHC.Generics.S1
+                                                                                                 Data.Repo.S1_0_5Repo
+                                                                                                 (GHC.Generics.Rec0
+                                                                                                    (GHC.Base.Maybe
+                                                                                                       GHC.Integer.Type.Integer)))))
+                                         GHC.Generics.:*: ((GHC.Generics.S1
+                                                              Data.Repo.S1_0_6Repo
+                                                              (GHC.Generics.Rec0
+                                                                 (GHC.Base.Maybe
+                                                                    Data.Text.Internal.Text))
+                                                            GHC.Generics.:*: (GHC.Generics.S1
+                                                                                Data.Repo.S1_0_7Repo
+                                                                                (GHC.Generics.Rec0
+                                                                                   (GHC.Base.Maybe
+                                                                                      GHC.Integer.Type.Integer))
+                                                                              GHC.Generics.:*: GHC.Generics.S1
+                                                                                                 Data.Repo.S1_0_8Repo
+                                                                                                 (GHC.Generics.Rec0
+                                                                                                    (GHC.Base.Maybe
+                                                                                                       GHC.Integer.Type.Integer))))
+                                                           GHC.Generics.:*: (GHC.Generics.S1
+                                                                               Data.Repo.S1_0_9Repo
+                                                                               (GHC.Generics.Rec0
+                                                                                  (GHC.Base.Maybe
+                                                                                     GHC.Integer.Type.Integer))
+                                                                             GHC.Generics.:*: (GHC.Generics.S1
+                                                                                                 Data.Repo.S1_0_10Repo
+                                                                                                 (GHC.Generics.Rec0
+                                                                                                    (GHC.Base.Maybe
+                                                                                                       GHC.Integer.Type.Integer))
+                                                                                               GHC.Generics.:*: GHC.Generics.S1
+                                                                                                                  Data.Repo.S1_0_11Repo
+                                                                                                                  (GHC.Generics.Rec0
+                                                                                                                     (GHC.Base.Maybe
+                                                                                                                        GHC.Integer.Type.Integer))))))>_R))
+                           (Sub (Sym (Data.Repo.Rep_Repo[0])))) <x>_N) }) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fGenericRepo_$cto ::
+    GHC.Generics.Rep Data.Repo.Repo x -> Data.Repo.Repo
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(S(S(LS)S(LS))S(S(LS)S(LS))),1*U(1*U(1*U(U,1*U(U,U)),1*U(U,1*U(U,U))),1*U(1*U(U,1*U(U,U)),1*U(U,1*U(U,U))))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x w :: GHC.Generics.Rep Data.Repo.Repo x ->
+                 case w `cast`
+                      (Trans
+                           (Sub (Data.Repo.Rep_Repo[0]))
+                           (Trans
+                                (GHC.Generics.NTCo:M1[0]
+                                     <GHC.Generics.D>_P
+                                     <Data.Repo.D1Repo>_P
+                                     <GHC.Generics.C1
+                                        Data.Repo.C1_0Repo
+                                        (((GHC.Generics.S1
+                                             Data.Repo.S1_0_0Repo
+                                             (GHC.Generics.Rec0 (GHC.Base.Maybe Data.Repo.Date))
+                                           GHC.Generics.:*: (GHC.Generics.S1
+                                                               Data.Repo.S1_0_1Repo
+                                                               (GHC.Generics.Rec0
+                                                                  (GHC.Base.Maybe Data.Repo.Date))
+                                                             GHC.Generics.:*: GHC.Generics.S1
+                                                                                Data.Repo.S1_0_2Repo
+                                                                                (GHC.Generics.Rec0
+                                                                                   (GHC.Base.Maybe
+                                                                                      Data.Repo.Date))))
+                                          GHC.Generics.:*: (GHC.Generics.S1
+                                                              Data.Repo.S1_0_3Repo
+                                                              (GHC.Generics.Rec0
+                                                                 (GHC.Base.Maybe
+                                                                    GHC.Integer.Type.Integer))
+                                                            GHC.Generics.:*: (GHC.Generics.S1
+                                                                                Data.Repo.S1_0_4Repo
+                                                                                (GHC.Generics.Rec0
+                                                                                   (GHC.Base.Maybe
+                                                                                      GHC.Integer.Type.Integer))
+                                                                              GHC.Generics.:*: GHC.Generics.S1
+                                                                                                 Data.Repo.S1_0_5Repo
+                                                                                                 (GHC.Generics.Rec0
+                                                                                                    (GHC.Base.Maybe
+                                                                                                       GHC.Integer.Type.Integer)))))
+                                         GHC.Generics.:*: ((GHC.Generics.S1
+                                                              Data.Repo.S1_0_6Repo
+                                                              (GHC.Generics.Rec0
+                                                                 (GHC.Base.Maybe
+                                                                    Data.Text.Internal.Text))
+                                                            GHC.Generics.:*: (GHC.Generics.S1
+                                                                                Data.Repo.S1_0_7Repo
+                                                                                (GHC.Generics.Rec0
+                                                                                   (GHC.Base.Maybe
+                                                                                      GHC.Integer.Type.Integer))
+                                                                              GHC.Generics.:*: GHC.Generics.S1
+                                                                                                 Data.Repo.S1_0_8Repo
+                                                                                                 (GHC.Generics.Rec0
+                                                                                                    (GHC.Base.Maybe
+                                                                                                       GHC.Integer.Type.Integer))))
+                                                           GHC.Generics.:*: (GHC.Generics.S1
+                                                                               Data.Repo.S1_0_9Repo
+                                                                               (GHC.Generics.Rec0
+                                                                                  (GHC.Base.Maybe
+                                                                                     GHC.Integer.Type.Integer))
+                                                                             GHC.Generics.:*: (GHC.Generics.S1
+                                                                                                 Data.Repo.S1_0_10Repo
+                                                                                                 (GHC.Generics.Rec0
+                                                                                                    (GHC.Base.Maybe
+                                                                                                       GHC.Integer.Type.Integer))
+                                                                                               GHC.Generics.:*: GHC.Generics.S1
+                                                                                                                  Data.Repo.S1_0_11Repo
+                                                                                                                  (GHC.Generics.Rec0
+                                                                                                                     (GHC.Base.Maybe
+                                                                                                                        GHC.Integer.Type.Integer))))))>_R)
+                                (GHC.Generics.NTCo:M1[0]
+                                     <GHC.Generics.C>_P
+                                     <Data.Repo.C1_0Repo>_P
+                                     <((GHC.Generics.S1
+                                          Data.Repo.S1_0_0Repo
+                                          (GHC.Generics.Rec0 (GHC.Base.Maybe Data.Repo.Date))
+                                        GHC.Generics.:*: (GHC.Generics.S1
+                                                            Data.Repo.S1_0_1Repo
+                                                            (GHC.Generics.Rec0
+                                                               (GHC.Base.Maybe Data.Repo.Date))
+                                                          GHC.Generics.:*: GHC.Generics.S1
+                                                                             Data.Repo.S1_0_2Repo
+                                                                             (GHC.Generics.Rec0
+                                                                                (GHC.Base.Maybe
+                                                                                   Data.Repo.Date))))
+                                       GHC.Generics.:*: (GHC.Generics.S1
+                                                           Data.Repo.S1_0_3Repo
+                                                           (GHC.Generics.Rec0
+                                                              (GHC.Base.Maybe
+                                                                 GHC.Integer.Type.Integer))
+                                                         GHC.Generics.:*: (GHC.Generics.S1
+                                                                             Data.Repo.S1_0_4Repo
+                                                                             (GHC.Generics.Rec0
+                                                                                (GHC.Base.Maybe
+                                                                                   GHC.Integer.Type.Integer))
+                                                                           GHC.Generics.:*: GHC.Generics.S1
+                                                                                              Data.Repo.S1_0_5Repo
+                                                                                              (GHC.Generics.Rec0
+                                                                                                 (GHC.Base.Maybe
+                                                                                                    GHC.Integer.Type.Integer)))))
+                                      GHC.Generics.:*: ((GHC.Generics.S1
+                                                           Data.Repo.S1_0_6Repo
+                                                           (GHC.Generics.Rec0
+                                                              (GHC.Base.Maybe
+                                                                 Data.Text.Internal.Text))
+                                                         GHC.Generics.:*: (GHC.Generics.S1
+                                                                             Data.Repo.S1_0_7Repo
+                                                                             (GHC.Generics.Rec0
+                                                                                (GHC.Base.Maybe
+                                                                                   GHC.Integer.Type.Integer))
+                                                                           GHC.Generics.:*: GHC.Generics.S1
+                                                                                              Data.Repo.S1_0_8Repo
+                                                                                              (GHC.Generics.Rec0
+                                                                                                 (GHC.Base.Maybe
+                                                                                                    GHC.Integer.Type.Integer))))
+                                                        GHC.Generics.:*: (GHC.Generics.S1
+                                                                            Data.Repo.S1_0_9Repo
+                                                                            (GHC.Generics.Rec0
+                                                                               (GHC.Base.Maybe
+                                                                                  GHC.Integer.Type.Integer))
+                                                                          GHC.Generics.:*: (GHC.Generics.S1
+                                                                                              Data.Repo.S1_0_10Repo
+                                                                                              (GHC.Generics.Rec0
+                                                                                                 (GHC.Base.Maybe
+                                                                                                    GHC.Integer.Type.Integer))
+                                                                                            GHC.Generics.:*: GHC.Generics.S1
+                                                                                                               Data.Repo.S1_0_11Repo
+                                                                                                               (GHC.Generics.Rec0
+                                                                                                                  (GHC.Base.Maybe
+                                                                                                                     GHC.Integer.Type.Integer)))))>_R)) <x>_N) of ww { GHC.Generics.:*: ww1 ww2 ->
+                 case ww1 of ww3 { GHC.Generics.:*: ww4 ww5 ->
+                 case ww4 of ww6 { GHC.Generics.:*: ww7 ww8 ->
+                 case ww8 of ww9 { GHC.Generics.:*: ww10 ww11 ->
+                 case ww5 of ww12 { GHC.Generics.:*: ww13 ww14 ->
+                 case ww14 of ww15 { GHC.Generics.:*: ww16 ww17 ->
+                 case ww2 of ww18 { GHC.Generics.:*: ww19 ww20 ->
+                 case ww19 of ww21 { GHC.Generics.:*: ww22 ww23 ->
+                 case ww23 of ww24 { GHC.Generics.:*: ww25 ww26 ->
+                 case ww20 of ww27 { GHC.Generics.:*: ww28 ww29 ->
+                 case ww29 of ww30 { GHC.Generics.:*: ww31 ww32 ->
+                 Data.Repo.Repo
+                   ww7
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Data.Repo.S1_0_0Repo>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe Data.Repo.Date)>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.Maybe Data.Repo.Date>_R <x>_P))
+                   ww10
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Data.Repo.S1_0_1Repo>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe Data.Repo.Date)>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.Maybe Data.Repo.Date>_R <x>_P))
+                   ww11
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Data.Repo.S1_0_2Repo>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe Data.Repo.Date)>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.Maybe Data.Repo.Date>_R <x>_P))
+                   ww13
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Data.Repo.S1_0_3Repo>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P
+                             <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                             <x>_P))
+                   ww16
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Data.Repo.S1_0_4Repo>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P
+                             <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                             <x>_P))
+                   ww17
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Data.Repo.S1_0_5Repo>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P
+                             <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                             <x>_P))
+                   ww22
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Data.Repo.S1_0_6Repo>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe Data.Text.Internal.Text)>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P
+                             <GHC.Base.Maybe Data.Text.Internal.Text>_R
+                             <x>_P))
+                   ww25
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Data.Repo.S1_0_7Repo>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P
+                             <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                             <x>_P))
+                   ww26
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Data.Repo.S1_0_8Repo>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P
+                             <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                             <x>_P))
+                   ww28
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Data.Repo.S1_0_9Repo>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P
+                             <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                             <x>_P))
+                   ww31
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Data.Repo.S1_0_10Repo>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P
+                             <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                             <x>_P))
+                   ww32
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Data.Repo.S1_0_11Repo>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P
+                             <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                             <x>_P)) } } } } } } } } } } }) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fMonoidRepo :: GHC.Base.Monoid Data.Repo.Repo
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Data.Repo.Repo
+                  Data.Repo.blankRepo
+                  Data.Repo.$fMonoidRepo_$cmappend
+                  Data.Repo.$fMonoidRepo_$cmconcat -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fMonoidRepo_$cmappend ::
+    Data.Repo.Repo -> Data.Repo.Repo -> Data.Repo.Repo
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <L,U(1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U)><L,U(1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U)>,
+     Unfolding: (\ r1 :: Data.Repo.Repo r2 :: Data.Repo.Repo ->
+                 Data.Repo.Repo
+                   (case r1 of wild { Data.Repo.Repo ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ->
+                    case ds of wild1 {
+                      GHC.Base.Nothing
+                      -> case r2 of wild2 { Data.Repo.Repo ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ->
+                         ds12 }
+                      GHC.Base.Just ipv -> wild1 } })
+                   (case r1 of wild { Data.Repo.Repo ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ->
+                    case ds1 of wild1 {
+                      GHC.Base.Nothing
+                      -> case r2 of wild2 { Data.Repo.Repo ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ->
+                         ds13 }
+                      GHC.Base.Just ipv -> wild1 } })
+                   (case r1 of wild { Data.Repo.Repo ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ->
+                    case ds2 of wild1 {
+                      GHC.Base.Nothing
+                      -> case r2 of wild2 { Data.Repo.Repo ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ->
+                         ds14 }
+                      GHC.Base.Just ipv -> wild1 } })
+                   (case r1 of wild { Data.Repo.Repo ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ->
+                    case ds3 of wild1 {
+                      GHC.Base.Nothing
+                      -> case r2 of wild2 { Data.Repo.Repo ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ->
+                         ds15 }
+                      GHC.Base.Just ipv -> wild1 } })
+                   (case r1 of wild { Data.Repo.Repo ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ->
+                    case ds4 of wild1 {
+                      GHC.Base.Nothing
+                      -> case r2 of wild2 { Data.Repo.Repo ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ->
+                         ds16 }
+                      GHC.Base.Just ipv -> wild1 } })
+                   (case r1 of wild { Data.Repo.Repo ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ->
+                    case ds5 of wild1 {
+                      GHC.Base.Nothing
+                      -> case r2 of wild2 { Data.Repo.Repo ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ->
+                         ds17 }
+                      GHC.Base.Just ipv -> wild1 } })
+                   (case r1 of wild { Data.Repo.Repo ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ->
+                    case ds6 of wild1 {
+                      GHC.Base.Nothing
+                      -> case r2 of wild2 { Data.Repo.Repo ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ->
+                         ds18 }
+                      GHC.Base.Just ipv -> wild1 } })
+                   (case r1 of wild { Data.Repo.Repo ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ->
+                    case ds7 of wild1 {
+                      GHC.Base.Nothing
+                      -> case r2 of wild2 { Data.Repo.Repo ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ->
+                         ds19 }
+                      GHC.Base.Just ipv -> wild1 } })
+                   (case r1 of wild { Data.Repo.Repo ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ->
+                    case ds8 of wild1 {
+                      GHC.Base.Nothing
+                      -> case r2 of wild2 { Data.Repo.Repo ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ->
+                         ds20 }
+                      GHC.Base.Just ipv -> wild1 } })
+                   (case r1 of wild { Data.Repo.Repo ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ->
+                    case ds9 of wild1 {
+                      GHC.Base.Nothing
+                      -> case r2 of wild2 { Data.Repo.Repo ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ->
+                         ds21 }
+                      GHC.Base.Just ipv -> wild1 } })
+                   (case r1 of wild { Data.Repo.Repo ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ->
+                    case ds10 of wild1 {
+                      GHC.Base.Nothing
+                      -> case r2 of wild2 { Data.Repo.Repo ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ->
+                         ds22 }
+                      GHC.Base.Just ipv -> wild1 } })
+                   (case r1 of wild { Data.Repo.Repo ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ->
+                    case ds11 of wild1 {
+                      GHC.Base.Nothing
+                      -> case r2 of wild2 { Data.Repo.Repo ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ->
+                         ds23 }
+                      GHC.Base.Just ipv -> wild1 } })) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fMonoidRepo_$cmconcat :: [Data.Repo.Repo] -> Data.Repo.Repo
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ eta :: [Data.Repo.Repo] ->
+                 Data.Repo.$fMonoidRepo_go eta) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fMonoidRepo_go :: [Data.Repo.Repo] -> Data.Repo.Repo
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
+c327d0bd873313ecd91a99d17f010768
+  $fSelectorDate :: GHC.Generics.Selector Data.Repo.S1_0_0Date
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fSelectorDate_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Data.Repo.S1_0_0Date>_N)) -}
+59919656378041889b95019428f9c013
+  $fSelectorDate0 :: GHC.Generics.Selector Data.Repo.S1_0_1Date
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fSelectorDate0_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Data.Repo.S1_0_1Date>_N)) -}
+59919656378041889b95019428f9c013
+  $fSelectorDate0_$cselName ::
+    t Data.Repo.S1_0_1Date f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.S1_0_1Date f a9 ->
+                 Data.Repo.$fSelectorDate3) -}
+7f9561f7019b77780207c9de609c4778
+  $fSelectorDate1 :: GHC.Generics.Selector Data.Repo.S1_0_2Date
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fSelectorDate1_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Data.Repo.S1_0_2Date>_N)) -}
+7f9561f7019b77780207c9de609c4778
+  $fSelectorDate1_$cselName ::
+    t Data.Repo.S1_0_2Date f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.S1_0_2Date f a9 ->
+                 Data.Repo.$fSelectorDate4) -}
+aac4a6d3a25a385318267abfac5073a6
+  $fSelectorDate2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "year"#) -}
+21fa54b6b88e9cdcc2d19ab059c2d7ef
+  $fSelectorDate3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "month"#) -}
+e5770e264d8a52616c1de08aa0b9036a
+  $fSelectorDate4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "day"#) -}
+c327d0bd873313ecd91a99d17f010768
+  $fSelectorDate_$cselName ::
+    t Data.Repo.S1_0_0Date f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.S1_0_0Date f a9 ->
+                 Data.Repo.$fSelectorDate2) -}
+34c71aefb666c3ba1f926daf16527408
+  $fSelectorRepo :: GHC.Generics.Selector Data.Repo.S1_0_0Repo
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fSelectorRepo_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Data.Repo.S1_0_0Repo>_N)) -}
+3b25bf7d9f8bf9600d06b6004af06ef0
+  $fSelectorRepo0 :: GHC.Generics.Selector Data.Repo.S1_0_1Repo
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fSelectorRepo0_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Data.Repo.S1_0_1Repo>_N)) -}
+3b25bf7d9f8bf9600d06b6004af06ef0
+  $fSelectorRepo0_$cselName ::
+    t Data.Repo.S1_0_1Repo f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.S1_0_1Repo f a9 ->
+                 Data.Repo.$fSelectorRepo12) -}
+7c85277af8eec7537bc1315ad093f47d
+  $fSelectorRepo1 :: GHC.Generics.Selector Data.Repo.S1_0_2Repo
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fSelectorRepo1_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Data.Repo.S1_0_2Repo>_N)) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fSelectorRepo10 :: GHC.Generics.Selector Data.Repo.S1_0_11Repo
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fSelectorRepo10_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Data.Repo.S1_0_11Repo>_N)) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fSelectorRepo10_$cselName ::
+    t Data.Repo.S1_0_11Repo f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.S1_0_11Repo f a9 ->
+                 Data.Repo.$fSelectorRepo14) -}
+f0352a22523a560558595de646e66fec
+  $fSelectorRepo11 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_created_at"#) -}
+cdf6f4c7149a621e88c195339bc9a8ab
+  $fSelectorRepo12 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_updated_at"#) -}
+6d29b07ba5dc40733aa4cea79f94cfeb
+  $fSelectorRepo13 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_pushed_at"#) -}
+a79548181b5b59a007ee5ef3b22ae1dc
+  $fSelectorRepo14 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_subscribers_count"#) -}
+92422b4dcb156058f18069b12b196d0e
+  $fSelectorRepo15 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_size"#) -}
+322eb5136d9ae72d0e2be342522121ff
+  $fSelectorRepo16 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_stargazers_count"#) -}
+8f25a97fc22dc96289b19bcc48de3c02
+  $fSelectorRepo17 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_watchers_count"#) -}
+0e20ec8ae3199c8d211ad835c3741d52
+  $fSelectorRepo18 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_language"#) -}
+e1c9df1b146b236be35ff5855b12b5a0
+  $fSelectorRepo19 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_forks_count"#) -}
+7c85277af8eec7537bc1315ad093f47d
+  $fSelectorRepo1_$cselName ::
+    t Data.Repo.S1_0_2Repo f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.S1_0_2Repo f a9 ->
+                 Data.Repo.$fSelectorRepo13) -}
+b535a0bbadcff4be61ffee18a197fb14
+  $fSelectorRepo2 :: GHC.Generics.Selector Data.Repo.S1_0_3Repo
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fSelectorRepo2_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Data.Repo.S1_0_3Repo>_N)) -}
+d74b669694f5b283de0714014761233a
+  $fSelectorRepo20 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_open_issues_count"#) -}
+0b9fba9a5f68fdf64a2aa8c35d246b2d
+  $fSelectorRepo21 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_watchers"#) -}
+3f1849566f62f5118b61d11c8926f119
+  $fSelectorRepo22 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_network_count"#) -}
+b535a0bbadcff4be61ffee18a197fb14
+  $fSelectorRepo2_$cselName ::
+    t Data.Repo.S1_0_3Repo f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.S1_0_3Repo f a9 ->
+                 Data.Repo.$fSelectorRepo15) -}
+0b4c67c335d3bcb38a6ddde7a3219610
+  $fSelectorRepo3 :: GHC.Generics.Selector Data.Repo.S1_0_4Repo
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fSelectorRepo3_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Data.Repo.S1_0_4Repo>_N)) -}
+0b4c67c335d3bcb38a6ddde7a3219610
+  $fSelectorRepo3_$cselName ::
+    t Data.Repo.S1_0_4Repo f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.S1_0_4Repo f a9 ->
+                 Data.Repo.$fSelectorRepo16) -}
+0bbdf09191b3fa97a653866840494cbb
+  $fSelectorRepo4 :: GHC.Generics.Selector Data.Repo.S1_0_5Repo
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fSelectorRepo4_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Data.Repo.S1_0_5Repo>_N)) -}
+0bbdf09191b3fa97a653866840494cbb
+  $fSelectorRepo4_$cselName ::
+    t Data.Repo.S1_0_5Repo f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.S1_0_5Repo f a9 ->
+                 Data.Repo.$fSelectorRepo17) -}
+7d375d84970fb48d61bcd1ed778c4843
+  $fSelectorRepo5 :: GHC.Generics.Selector Data.Repo.S1_0_6Repo
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fSelectorRepo5_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Data.Repo.S1_0_6Repo>_N)) -}
+7d375d84970fb48d61bcd1ed778c4843
+  $fSelectorRepo5_$cselName ::
+    t Data.Repo.S1_0_6Repo f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.S1_0_6Repo f a9 ->
+                 Data.Repo.$fSelectorRepo18) -}
+6542c16c4c8d6a8ac778abae138a393f
+  $fSelectorRepo6 :: GHC.Generics.Selector Data.Repo.S1_0_7Repo
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fSelectorRepo6_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Data.Repo.S1_0_7Repo>_N)) -}
+6542c16c4c8d6a8ac778abae138a393f
+  $fSelectorRepo6_$cselName ::
+    t Data.Repo.S1_0_7Repo f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.S1_0_7Repo f a9 ->
+                 Data.Repo.$fSelectorRepo19) -}
+8b18247b24dac8fe5c16e1692392ed18
+  $fSelectorRepo7 :: GHC.Generics.Selector Data.Repo.S1_0_8Repo
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fSelectorRepo7_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Data.Repo.S1_0_8Repo>_N)) -}
+8b18247b24dac8fe5c16e1692392ed18
+  $fSelectorRepo7_$cselName ::
+    t Data.Repo.S1_0_8Repo f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.S1_0_8Repo f a9 ->
+                 Data.Repo.$fSelectorRepo20) -}
+0ef3d4ac3cede9b14cb30b47bd468e19
+  $fSelectorRepo8 :: GHC.Generics.Selector Data.Repo.S1_0_9Repo
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fSelectorRepo8_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Data.Repo.S1_0_9Repo>_N)) -}
+0ef3d4ac3cede9b14cb30b47bd468e19
+  $fSelectorRepo8_$cselName ::
+    t Data.Repo.S1_0_9Repo f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.S1_0_9Repo f a9 ->
+                 Data.Repo.$fSelectorRepo21) -}
+2353739248788b667b7f51d06dc32079
+  $fSelectorRepo9 :: GHC.Generics.Selector Data.Repo.S1_0_10Repo
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fSelectorRepo9_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Data.Repo.S1_0_10Repo>_N)) -}
+2353739248788b667b7f51d06dc32079
+  $fSelectorRepo9_$cselName ::
+    t Data.Repo.S1_0_10Repo f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.S1_0_10Repo f a9 ->
+                 Data.Repo.$fSelectorRepo22) -}
+34c71aefb666c3ba1f926daf16527408
+  $fSelectorRepo_$cselName ::
+    t Data.Repo.S1_0_0Repo f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a9
+                   ds :: t Data.Repo.S1_0_0Repo f a9 ->
+                 Data.Repo.$fSelectorRepo11) -}
+7f9561f7019b77780207c9de609c4778
+  $fShowDate :: GHC.Show.Show Data.Repo.Date
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Data.Repo.Date
+                  Data.Repo.$fShowDate_$s$dmshowsPrec
+                  Data.Repo.$fShowDate_$cshow
+                  Data.Repo.$fShowDate_$cshowList -}
+7f9561f7019b77780207c9de609c4778
+  $fShowDate1 ::
+    Data.Repo.Date -> GHC.Base.String -> [GHC.Types.Char]
+  {- Arity: 2,
+     Unfolding: (\ x :: Data.Repo.Date s :: GHC.Base.String[OneShot] ->
+                 case x of ww { Data.Repo.Date ww1 ww2 ww3 ->
+                 GHC.Base.++
+                   @ GHC.Types.Char
+                   (Data.Repo.$w$cshow ww1 ww2 ww3)
+                   s }) -}
+5f334970bc08dfc2a2975ce739f600c8
+  $fShowDate2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "-"#) -}
+7f9561f7019b77780207c9de609c4778
+  $fShowDate_$cshow :: Data.Repo.Date -> GHC.Base.String
+  {- Arity: 1, Strictness: <S(SLL),1*U(U,U,U)>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: Data.Repo.Date ->
+                 case w of ww { Data.Repo.Date ww1 ww2 ww3 ->
+                 Data.Repo.$w$cshow ww1 ww2 ww3 }) -}
+7f9561f7019b77780207c9de609c4778
+  $fShowDate_$cshowList :: [Data.Repo.Date] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: (\ ls :: [Data.Repo.Date] s :: GHC.Base.String ->
+                 GHC.Show.showList__ @ Data.Repo.Date Data.Repo.$fShowDate1 ls s) -}
+7f9561f7019b77780207c9de609c4778
+  $fShowDate_$s$dmshowsPrec ::
+    GHC.Types.Int -> Data.Repo.Date -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S(SLL),1*U(U,U,U)><L,1*U>,
+     Unfolding: InlineRule (-1, True, False)
+                (\ ds :: GHC.Types.Int x :: Data.Repo.Date s :: GHC.Base.String ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b c :: GHC.Types.Char -> b -> b[OneShot] n :: b[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      (Data.Repo.$fShowDate_$cshow x))
+                   s) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fShowRepo :: GHC.Show.Show Data.Repo.Repo
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Data.Repo.Repo
+                  Data.Repo.$fShowRepo_$cshowsPrec
+                  Data.Repo.$fShowRepo_$cshow
+                  Data.Repo.$fShowRepo_$cshowList -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fShowRepo1 :: Data.Repo.Repo -> GHC.Show.ShowS
+  {- Arity: 1,
+     Unfolding: (\ w :: Data.Repo.Repo ->
+                 case w of ww { Data.Repo.Repo ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ->
+                 Data.Repo.$w$cshowsPrec
+                   0
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   ww5
+                   ww6
+                   ww7
+                   ww8
+                   ww9
+                   ww10
+                   ww11
+                   ww12 }) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fShowRepo_$cshow :: Data.Repo.Repo -> GHC.Base.String
+  {- Arity: 1,
+     Strictness: <S,1*U(1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Data.Repo.Repo ->
+                 Data.Repo.$fShowRepo_$cshowsPrec
+                   GHC.Show.shows18
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fShowRepo_$cshowList :: [Data.Repo.Repo] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Data.Repo.Repo
+                   Data.Repo.$fShowRepo1) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fShowRepo_$cshowsPrec ::
+    GHC.Types.Int -> Data.Repo.Repo -> GHC.Show.ShowS
+  {- Arity: 2,
+     Strictness: <S,1*U(U)><S,1*U(1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: GHC.Types.Int w1 :: Data.Repo.Repo ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Data.Repo.Repo ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ww13 ww14 ->
+                 Data.Repo.$w$cshowsPrec
+                   ww1
+                   ww3
+                   ww4
+                   ww5
+                   ww6
+                   ww7
+                   ww8
+                   ww9
+                   ww10
+                   ww11
+                   ww12
+                   ww13
+                   ww14 } }) -}
+7f9561f7019b77780207c9de609c4778
+  $fToJSONDate :: Data.Aeson.Types.Class.ToJSON Data.Repo.Date
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U,1*U)>m1,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fToJSONDate_$ctoJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:ToJSON[0] <Data.Repo.Date>_N)) -}
+350769967ebb356c74815079912c9e82
+  $fToJSONDate1 :: Data.Text.Internal.Text
+  {- Unfolding: (GHC.ST.runSTRep
+                   @ Data.Text.Internal.Text
+                   Data.Repo.$fToJSONDate2) -}
+5560533f43c03ee47f15890a53d4b5af
+  $fToJSONDate10 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+fe3e2761d736581f10133c2a43a0c4e2
+  $fToJSONDate2 ::
+    GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                 case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                 Data.Repo.$fToJSONDate4
+                   @ s1
+                   (Data.Text.Array.MArray @ s1 ipv1)
+                   Data.Repo.$fToJSONDate3
+                   Data.Repo.$fSelectorDate4
+                   0
+                   ipv }) -}
+ce7ff807f46135349d87a90c398046ce
+  $fToJSONDate3 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 4) -}
+e46db04f15999a835e63081fb032818f
+  $fToJSONDate4 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+b2ae7cfba38583d13b1d94e3fb100eb3
+  $fToJSONDate5 :: Data.Text.Internal.Text
+  {- Unfolding: (GHC.ST.runSTRep
+                   @ Data.Text.Internal.Text
+                   Data.Repo.$fToJSONDate6) -}
+3d4da4194829fc5a1a859d066b9d2f35
+  $fToJSONDate6 ::
+    GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                 case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                 Data.Repo.$fToJSONDate7
+                   @ s1
+                   (Data.Text.Array.MArray @ s1 ipv1)
+                   Data.Repo.$fToJSONDate3
+                   Data.Repo.$fSelectorDate3
+                   0
+                   ipv }) -}
+164fb52749f3e970ced8d225dcf1eff0
+  $fToJSONDate7 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+2c2d352ecb0faf900f1103fc06ac62f1
+  $fToJSONDate8 :: Data.Text.Internal.Text
+  {- Unfolding: (GHC.ST.runSTRep
+                   @ Data.Text.Internal.Text
+                   Data.Repo.$fToJSONDate9) -}
+9683203ccf6de6d36175e215b098c82e
+  $fToJSONDate9 ::
+    GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                 case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                 Data.Repo.$fToJSONDate10
+                   @ s1
+                   (Data.Text.Array.MArray @ s1 ipv1)
+                   Data.Repo.$fToJSONDate3
+                   Data.Repo.$fSelectorDate2
+                   0
+                   ipv }) -}
+7f9561f7019b77780207c9de609c4778
+  $fToJSONDate_$ctoJSON ::
+    Data.Repo.Date -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U,1*U)>m1, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: Data.Repo.Date ->
+                 case w of ww { Data.Repo.Date ww1 ww2 ww3 ->
+                 case Data.Repo.$w$ctoJSON ww1 ww2 ww3 of ww4 { (##) ww5 ->
+                 Data.Aeson.Types.Internal.Object ww5 } }) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fToJSONRepo :: Data.Aeson.Types.Class.ToJSON Data.Repo.Repo
+  DFunId[0]
+  {- Arity: 1,
+     Strictness: <S,1*U(1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U)>m1,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Data.Repo.$fToJSONRepo_$ctoJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:ToJSON[0] <Data.Repo.Repo>_N)) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  $fToJSONRepo_$ctoJSON ::
+    Data.Repo.Repo -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1,
+     Strictness: <S,1*U(1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U)>m1,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: Data.Repo.Repo ->
+                 case w of ww { Data.Repo.Repo ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ->
+                 case Data.Repo.$w$ctoJSON1
+                        ww1
+                        ww2
+                        ww3
+                        ww4
+                        ww5
+                        ww6
+                        ww7
+                        ww8
+                        ww9
+                        ww10
+                        ww11
+                        ww12 of ww13 { (##) ww14 ->
+                 Data.Aeson.Types.Internal.Object ww14 } }) -}
+70e77c4570b927ac67d6f464dc71d51a
+  $w$c== ::
+    GHC.Integer.Type.Integer
+    -> GHC.Integer.Type.Integer
+    -> GHC.Integer.Type.Integer
+    -> GHC.Integer.Type.Integer
+    -> GHC.Integer.Type.Integer
+    -> GHC.Integer.Type.Integer
+    -> GHC.Types.Bool
+  {- Arity: 6, HasNoCafRefs,
+     Strictness: <S,1*U><L,1*U><L,1*U><S,1*U><L,1*U><L,1*U>,
+     Inline: [0],
+     Unfolding: (\ ww :: GHC.Integer.Type.Integer
+                   ww1 :: GHC.Integer.Type.Integer
+                   ww2 :: GHC.Integer.Type.Integer
+                   ww3 :: GHC.Integer.Type.Integer
+                   ww4 :: GHC.Integer.Type.Integer
+                   ww5 :: GHC.Integer.Type.Integer ->
+                 case GHC.Integer.Type.eqInteger# ww ww3 of wild { DEFAULT ->
+                 case GHC.Prim.tagToEnum# @ GHC.Types.Bool wild of wild1 {
+                   GHC.Types.False -> GHC.Types.False
+                   GHC.Types.True
+                   -> case GHC.Integer.Type.eqInteger# ww1 ww4 of wild2 { DEFAULT ->
+                      case GHC.Prim.tagToEnum# @ GHC.Types.Bool wild2 of wild3 {
+                        GHC.Types.False -> GHC.Types.False
+                        GHC.Types.True -> GHC.Integer.Type.eqInteger ww2 ww5 } } } }) -}
+3340f4ee2b15593f157823c28eb83384
+  $w$c==1 ::
+    GHC.Base.Maybe Data.Repo.Date
+    -> GHC.Base.Maybe Data.Repo.Date
+    -> GHC.Base.Maybe Data.Repo.Date
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe Data.Repo.Date
+    -> GHC.Base.Maybe Data.Repo.Date
+    -> GHC.Base.Maybe Data.Repo.Date
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Types.Bool
+  {- Arity: 24, HasNoCafRefs,
+     Strictness: <S,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><S,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U>,
+     Inline: [0] -}
+3227f5291007044731a0971fcdbb1121
+  $w$cshow ::
+    GHC.Integer.Type.Integer
+    -> GHC.Integer.Type.Integer
+    -> GHC.Integer.Type.Integer
+    -> GHC.Base.String
+  {- Arity: 3, Strictness: <S,U><L,U><L,U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Integer.Type.Integer
+                   ww1 :: GHC.Integer.Type.Integer
+                   ww2 :: GHC.Integer.Type.Integer ->
+                 case GHC.Show.$w$cshowsPrec1
+                        0
+                        ww
+                        (GHC.Types.[] @ GHC.Types.Char) of ww3 { (#,#) ww4 ww5 ->
+                 GHC.Base.++
+                   @ GHC.Types.Char
+                   (GHC.Types.: @ GHC.Types.Char ww4 ww5)
+                   (GHC.Base.++
+                      @ GHC.Types.Char
+                      Data.Repo.$fShowDate2
+                      (case GHC.Show.$w$cshowsPrec1
+                              0
+                              ww1
+                              (GHC.Types.[] @ GHC.Types.Char) of ww6 { (#,#) ww7 ww8 ->
+                       GHC.Base.++
+                         @ GHC.Types.Char
+                         (GHC.Types.: @ GHC.Types.Char ww7 ww8)
+                         (GHC.Base.++
+                            @ GHC.Types.Char
+                            Data.Repo.$fShowDate2
+                            (case GHC.Show.$w$cshowsPrec1
+                                    0
+                                    ww2
+                                    (GHC.Types.[] @ GHC.Types.Char) of ww9 { (#,#) ww10 ww11 ->
+                             GHC.Types.: @ GHC.Types.Char ww10 ww11 })) })) }) -}
+65eb72db5bb63340ab91f302937f2bfa
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> GHC.Base.Maybe Data.Repo.Date
+    -> GHC.Base.Maybe Data.Repo.Date
+    -> GHC.Base.Maybe Data.Repo.Date
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Show.ShowS
+  {- Arity: 13,
+     Strictness: <L,U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U>,
+     Inline: [0] -}
+52885e11cffd834a52d12230c3d0de18
+  $w$ctoJSON ::
+    GHC.Integer.Type.Integer
+    -> GHC.Integer.Type.Integer
+    -> GHC.Integer.Type.Integer
+    -> (# Data.Aeson.Types.Internal.Object #)
+  {- Arity: 3, Strictness: <L,1*U><L,1*U><L,1*U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Integer.Type.Integer
+                   ww1 :: GHC.Integer.Type.Integer
+                   ww2 :: GHC.Integer.Type.Integer ->
+                 case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Data.Repo.$fToJSONDate8,
+                            case ww of dt { DEFAULT ->
+                            Data.Aeson.Types.Internal.Number
+                              (Data.Scientific.Scientific dt 0) })
+                           (GHC.Types.:
+                              @ Data.Aeson.Types.Internal.Pair
+                              (Data.Repo.$fToJSONDate5,
+                               case ww1 of dt { DEFAULT ->
+                               Data.Aeson.Types.Internal.Number
+                                 (Data.Scientific.Scientific dt 0) })
+                              (GHC.Types.:
+                                 @ Data.Aeson.Types.Internal.Pair
+                                 (Data.Repo.$fToJSONDate1,
+                                  case ww2 of dt { DEFAULT ->
+                                  Data.Aeson.Types.Internal.Number
+                                    (Data.Scientific.Scientific dt 0) })
+                                 (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair))))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 (# dt #) }) -}
+c4233bba2c86ce34851efe9eb5f562ad
+  $w$ctoJSON1 ::
+    GHC.Base.Maybe Data.Repo.Date
+    -> GHC.Base.Maybe Data.Repo.Date
+    -> GHC.Base.Maybe Data.Repo.Date
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> (# Data.Aeson.Types.Internal.Object #)
+  {- Arity: 12,
+     Strictness: <L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U><L,1*U>,
+     Inline: [0] -}
+478fa49348629109d6faefffd039c2a6
+  abstract(True) C1_0Date
+d8c07e47c68e91a9b44ca36b5dc25c58
+  abstract(True) C1_0Repo
+ecafeec8b25c06c8565d4027fbec45ff
+  abstract(True) D1Date
+1f282d063d310e1f18e3d593b3d82e24
+  abstract(True) D1Repo
+7f9561f7019b77780207c9de609c4778
+  data Date
+    = Date {year :: GHC.Integer.Type.Integer,
+            month :: GHC.Integer.Type.Integer,
+            day :: GHC.Integer.Type.Integer}
+7f9561f7019b77780207c9de609c4778
+  axiom Rep_Date::
+      GHC.Generics.Rep Data.Repo.Date
+        = GHC.Generics.D1
+            Data.Repo.D1Date
+            (GHC.Generics.C1
+               Data.Repo.C1_0Date
+               (GHC.Generics.S1
+                  Data.Repo.S1_0_0Date (GHC.Generics.Rec0 GHC.Integer.Type.Integer)
+                GHC.Generics.:*: (GHC.Generics.S1
+                                    Data.Repo.S1_0_1Date
+                                    (GHC.Generics.Rec0 GHC.Integer.Type.Integer)
+                                  GHC.Generics.:*: GHC.Generics.S1
+                                                     Data.Repo.S1_0_2Date
+                                                     (GHC.Generics.Rec0 GHC.Integer.Type.Integer))))
+31c23b448db69e48dcdd96d14eeb29f7
+  axiom Rep_Repo::
+      GHC.Generics.Rep Data.Repo.Repo
+        = GHC.Generics.D1
+            Data.Repo.D1Repo
+            (GHC.Generics.C1
+               Data.Repo.C1_0Repo
+               (((GHC.Generics.S1
+                    Data.Repo.S1_0_0Repo
+                    (GHC.Generics.Rec0 (GHC.Base.Maybe Data.Repo.Date))
+                  GHC.Generics.:*: (GHC.Generics.S1
+                                      Data.Repo.S1_0_1Repo
+                                      (GHC.Generics.Rec0 (GHC.Base.Maybe Data.Repo.Date))
+                                    GHC.Generics.:*: GHC.Generics.S1
+                                                       Data.Repo.S1_0_2Repo
+                                                       (GHC.Generics.Rec0
+                                                          (GHC.Base.Maybe Data.Repo.Date))))
+                 GHC.Generics.:*: (GHC.Generics.S1
+                                     Data.Repo.S1_0_3Repo
+                                     (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                                   GHC.Generics.:*: (GHC.Generics.S1
+                                                       Data.Repo.S1_0_4Repo
+                                                       (GHC.Generics.Rec0
+                                                          (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                                                     GHC.Generics.:*: GHC.Generics.S1
+                                                                        Data.Repo.S1_0_5Repo
+                                                                        (GHC.Generics.Rec0
+                                                                           (GHC.Base.Maybe
+                                                                              GHC.Integer.Type.Integer)))))
+                GHC.Generics.:*: ((GHC.Generics.S1
+                                     Data.Repo.S1_0_6Repo
+                                     (GHC.Generics.Rec0 (GHC.Base.Maybe Data.Text.Internal.Text))
+                                   GHC.Generics.:*: (GHC.Generics.S1
+                                                       Data.Repo.S1_0_7Repo
+                                                       (GHC.Generics.Rec0
+                                                          (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                                                     GHC.Generics.:*: GHC.Generics.S1
+                                                                        Data.Repo.S1_0_8Repo
+                                                                        (GHC.Generics.Rec0
+                                                                           (GHC.Base.Maybe
+                                                                              GHC.Integer.Type.Integer))))
+                                  GHC.Generics.:*: (GHC.Generics.S1
+                                                      Data.Repo.S1_0_9Repo
+                                                      (GHC.Generics.Rec0
+                                                         (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                                                    GHC.Generics.:*: (GHC.Generics.S1
+                                                                        Data.Repo.S1_0_10Repo
+                                                                        (GHC.Generics.Rec0
+                                                                           (GHC.Base.Maybe
+                                                                              GHC.Integer.Type.Integer))
+                                                                      GHC.Generics.:*: GHC.Generics.S1
+                                                                                         Data.Repo.S1_0_11Repo
+                                                                                         (GHC.Generics.Rec0
+                                                                                            (GHC.Base.Maybe
+                                                                                               GHC.Integer.Type.Integer)))))))
+31c23b448db69e48dcdd96d14eeb29f7
+  data Repo
+    = Repo {_created_at :: GHC.Base.Maybe Data.Repo.Date,
+            _updated_at :: GHC.Base.Maybe Data.Repo.Date,
+            _pushed_at :: GHC.Base.Maybe Data.Repo.Date,
+            _size :: GHC.Base.Maybe GHC.Integer.Type.Integer,
+            _stargazers_count :: GHC.Base.Maybe GHC.Integer.Type.Integer,
+            _watchers_count :: GHC.Base.Maybe GHC.Integer.Type.Integer,
+            _language :: GHC.Base.Maybe Data.Text.Internal.Text,
+            _forks_count :: GHC.Base.Maybe GHC.Integer.Type.Integer,
+            _open_issues_count :: GHC.Base.Maybe GHC.Integer.Type.Integer,
+            _watchers :: GHC.Base.Maybe GHC.Integer.Type.Integer,
+            _network_count :: GHC.Base.Maybe GHC.Integer.Type.Integer,
+            _subscribers_count :: GHC.Base.Maybe GHC.Integer.Type.Integer}
+c327d0bd873313ecd91a99d17f010768
+  abstract(True) S1_0_0Date
+34c71aefb666c3ba1f926daf16527408
+  abstract(True) S1_0_0Repo
+2353739248788b667b7f51d06dc32079
+  abstract(True) S1_0_10Repo
+31c23b448db69e48dcdd96d14eeb29f7
+  abstract(True) S1_0_11Repo
+59919656378041889b95019428f9c013
+  abstract(True) S1_0_1Date
+3b25bf7d9f8bf9600d06b6004af06ef0
+  abstract(True) S1_0_1Repo
+7f9561f7019b77780207c9de609c4778
+  abstract(True) S1_0_2Date
+7c85277af8eec7537bc1315ad093f47d
+  abstract(True) S1_0_2Repo
+b535a0bbadcff4be61ffee18a197fb14
+  abstract(True) S1_0_3Repo
+0b4c67c335d3bcb38a6ddde7a3219610
+  abstract(True) S1_0_4Repo
+0bbdf09191b3fa97a653866840494cbb
+  abstract(True) S1_0_5Repo
+7d375d84970fb48d61bcd1ed778c4843
+  abstract(True) S1_0_6Repo
+6542c16c4c8d6a8ac778abae138a393f
+  abstract(True) S1_0_7Repo
+8b18247b24dac8fe5c16e1692392ed18
+  abstract(True) S1_0_8Repo
+0ef3d4ac3cede9b14cb30b47bd468e19
+  abstract(True) S1_0_9Repo
+3d09c790f3a1e79ffef6aa1a16ea15b3
+  _created_at :: Data.Repo.Repo -> GHC.Base.Maybe Data.Repo.Date
+  RecSel Data.Repo.Repo
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(SLLLLLLLLLLL),1*U(1*U,A,A,A,A,A,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds1 }) -}
+76d6899ebca6024c6f9cbcd57dcf695e
+  _forks_count ::
+    Data.Repo.Repo -> GHC.Base.Maybe GHC.Integer.Type.Integer
+  RecSel Data.Repo.Repo
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLSLLLL),1*U(A,A,A,A,A,A,A,1*U,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds8 }) -}
+00d6b684945817f59217a0062f0cdb40
+  _language ::
+    Data.Repo.Repo -> GHC.Base.Maybe Data.Text.Internal.Text
+  RecSel Data.Repo.Repo
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLSLLLLL),1*U(A,A,A,A,A,A,1*U,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds7 }) -}
+a06834bc078538a24b0f8d9c51489f69
+  _network_count ::
+    Data.Repo.Repo -> GHC.Base.Maybe GHC.Integer.Type.Integer
+  RecSel Data.Repo.Repo
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLSL),1*U(A,A,A,A,A,A,A,A,A,A,1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds11 }) -}
+aa9c8fcdd8f513225120f7422960a5c7
+  _open_issues_count ::
+    Data.Repo.Repo -> GHC.Base.Maybe GHC.Integer.Type.Integer
+  RecSel Data.Repo.Repo
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLSLLL),1*U(A,A,A,A,A,A,A,A,1*U,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds9 }) -}
+da04008a494d709a34bdd3f3729b63ee
+  _pushed_at :: Data.Repo.Repo -> GHC.Base.Maybe Data.Repo.Date
+  RecSel Data.Repo.Repo
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLSLLLLLLLLL),1*U(A,A,1*U,A,A,A,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds3 }) -}
+5afb57db04529484f5f03ae379bfc77c
+  _size :: Data.Repo.Repo -> GHC.Base.Maybe GHC.Integer.Type.Integer
+  RecSel Data.Repo.Repo
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLSLLLLLLLL),1*U(A,A,A,1*U,A,A,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds4 }) -}
+e596d99c77b30aa7bc74830c814c869a
+  _stargazers_count ::
+    Data.Repo.Repo -> GHC.Base.Maybe GHC.Integer.Type.Integer
+  RecSel Data.Repo.Repo
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLSLLLLLLL),1*U(A,A,A,A,1*U,A,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds5 }) -}
+55e021058e58db881ddffa908beb1401
+  _subscribers_count ::
+    Data.Repo.Repo -> GHC.Base.Maybe GHC.Integer.Type.Integer
+  RecSel Data.Repo.Repo
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLS),1*U(A,A,A,A,A,A,A,A,A,A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds12 }) -}
+8dd213a7853d05bab55a5f8bfd726ff3
+  _updated_at :: Data.Repo.Repo -> GHC.Base.Maybe Data.Repo.Date
+  RecSel Data.Repo.Repo
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LSLLLLLLLLLL),1*U(A,1*U,A,A,A,A,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds2 }) -}
+155c533cbf4b1133ae63a8cceffb450e
+  _watchers ::
+    Data.Repo.Repo -> GHC.Base.Maybe GHC.Integer.Type.Integer
+  RecSel Data.Repo.Repo
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLSLL),1*U(A,A,A,A,A,A,A,A,A,1*U,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds10 }) -}
+0dc65e93480312996da185ba879c2558
+  _watchers_count ::
+    Data.Repo.Repo -> GHC.Base.Maybe GHC.Integer.Type.Integer
+  RecSel Data.Repo.Repo
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLSLLLLLL),1*U(A,A,A,A,A,1*U,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds6 }) -}
+31c23b448db69e48dcdd96d14eeb29f7
+  blankRepo :: Data.Repo.Repo
+  {- HasNoCafRefs,
+     Unfolding: (Data.Repo.Repo
+                   (GHC.Base.Nothing @ Data.Repo.Date)
+                   (GHC.Base.Nothing @ Data.Repo.Date)
+                   (GHC.Base.Nothing @ Data.Repo.Date)
+                   (GHC.Base.Nothing @ GHC.Integer.Type.Integer)
+                   (GHC.Base.Nothing @ GHC.Integer.Type.Integer)
+                   (GHC.Base.Nothing @ GHC.Integer.Type.Integer)
+                   (GHC.Base.Nothing @ Data.Text.Internal.Text)
+                   (GHC.Base.Nothing @ GHC.Integer.Type.Integer)
+                   (GHC.Base.Nothing @ GHC.Integer.Type.Integer)
+                   (GHC.Base.Nothing @ GHC.Integer.Type.Integer)
+                   (GHC.Base.Nothing @ GHC.Integer.Type.Integer)
+                   (GHC.Base.Nothing @ GHC.Integer.Type.Integer)) -}
+aca3b4abcd71846d56fbb8c0f601ec27
+  created_at ::
+    Control.Lens.Type.Lens'
+      Data.Repo.Repo (GHC.Base.Maybe Data.Repo.Date)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U,U,U,U)>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ (f :: * -> *)
+                   $dFunctor :: GHC.Base.Functor f
+                   f1 :: GHC.Base.Maybe Data.Repo.Date
+                         -> f (GHC.Base.Maybe Data.Repo.Date)
+                   ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo x x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ (GHC.Base.Maybe Data.Repo.Date)
+                   @ Data.Repo.Repo
+                   (\ y :: GHC.Base.Maybe Data.Repo.Date ->
+                    Data.Repo.Repo y x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11)
+                   (f1 x) }) -}
+a5eb51426f3fe29b7f206b520ba029e9
+  day :: Data.Repo.Date -> GHC.Integer.Type.Integer
+  RecSel Data.Repo.Date
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLS),1*U(A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Data.Repo.Date ->
+                 case ds of wild { Data.Repo.Date ds1 ds2 ds3 -> ds3 }) -}
+d69ed3af50ddd5b68159f217203a7857
+  forks_count ::
+    Control.Lens.Type.Lens'
+      Data.Repo.Repo (GHC.Base.Maybe GHC.Integer.Type.Integer)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U,U,U,U)>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ (f :: * -> *)
+                   $dFunctor :: GHC.Base.Functor f
+                   f1 :: GHC.Base.Maybe GHC.Integer.Type.Integer
+                         -> f (GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo x x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ (GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   @ Data.Repo.Repo
+                   (\ y :: GHC.Base.Maybe GHC.Integer.Type.Integer ->
+                    Data.Repo.Repo x x1 x2 x3 x4 x5 x6 y x8 x9 x10 x11)
+                   (f1 x7) }) -}
+2470c1e2f890515c404bdb816d647bd0
+  language ::
+    Control.Lens.Type.Lens'
+      Data.Repo.Repo (GHC.Base.Maybe Data.Text.Internal.Text)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U,U,U,U)>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ (f :: * -> *)
+                   $dFunctor :: GHC.Base.Functor f
+                   f1 :: GHC.Base.Maybe Data.Text.Internal.Text
+                         -> f (GHC.Base.Maybe Data.Text.Internal.Text)
+                   ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo x x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ (GHC.Base.Maybe Data.Text.Internal.Text)
+                   @ Data.Repo.Repo
+                   (\ y :: GHC.Base.Maybe Data.Text.Internal.Text ->
+                    Data.Repo.Repo x x1 x2 x3 x4 x5 y x7 x8 x9 x10 x11)
+                   (f1 x6) }) -}
+8d43375f8d5809efc08d8c2e8f30dad2
+  month :: Data.Repo.Date -> GHC.Integer.Type.Integer
+  RecSel Data.Repo.Date
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Data.Repo.Date ->
+                 case ds of wild { Data.Repo.Date ds1 ds2 ds3 -> ds2 }) -}
+efba5f2081c9ac17aa7dec7dee4781d3
+  network_count ::
+    Control.Lens.Type.Lens'
+      Data.Repo.Repo (GHC.Base.Maybe GHC.Integer.Type.Integer)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U,U,U,U)>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ (f :: * -> *)
+                   $dFunctor :: GHC.Base.Functor f
+                   f1 :: GHC.Base.Maybe GHC.Integer.Type.Integer
+                         -> f (GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo x x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ (GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   @ Data.Repo.Repo
+                   (\ y :: GHC.Base.Maybe GHC.Integer.Type.Integer ->
+                    Data.Repo.Repo x x1 x2 x3 x4 x5 x6 x7 x8 x9 y x11)
+                   (f1 x10) }) -}
+199f79b48154c9d9e3222baf2099419e
+  open_issues_count ::
+    Control.Lens.Type.Lens'
+      Data.Repo.Repo (GHC.Base.Maybe GHC.Integer.Type.Integer)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U,U,U,U)>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ (f :: * -> *)
+                   $dFunctor :: GHC.Base.Functor f
+                   f1 :: GHC.Base.Maybe GHC.Integer.Type.Integer
+                         -> f (GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo x x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ (GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   @ Data.Repo.Repo
+                   (\ y :: GHC.Base.Maybe GHC.Integer.Type.Integer ->
+                    Data.Repo.Repo x x1 x2 x3 x4 x5 x6 x7 y x9 x10 x11)
+                   (f1 x8) }) -}
+44bc05aaf5a9207e749a4beb0b63bd68
+  pushed_at ::
+    Control.Lens.Type.Lens'
+      Data.Repo.Repo (GHC.Base.Maybe Data.Repo.Date)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U,U,U,U)>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ (f :: * -> *)
+                   $dFunctor :: GHC.Base.Functor f
+                   f1 :: GHC.Base.Maybe Data.Repo.Date
+                         -> f (GHC.Base.Maybe Data.Repo.Date)
+                   ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo x x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ (GHC.Base.Maybe Data.Repo.Date)
+                   @ Data.Repo.Repo
+                   (\ y :: GHC.Base.Maybe Data.Repo.Date ->
+                    Data.Repo.Repo x x1 y x3 x4 x5 x6 x7 x8 x9 x10 x11)
+                   (f1 x2) }) -}
+05a371e53817c0eebf386e3e1404de51
+  size ::
+    Control.Lens.Type.Lens'
+      Data.Repo.Repo (GHC.Base.Maybe GHC.Integer.Type.Integer)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U,U,U,U)>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ (f :: * -> *)
+                   $dFunctor :: GHC.Base.Functor f
+                   f1 :: GHC.Base.Maybe GHC.Integer.Type.Integer
+                         -> f (GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo x x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ (GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   @ Data.Repo.Repo
+                   (\ y :: GHC.Base.Maybe GHC.Integer.Type.Integer ->
+                    Data.Repo.Repo x x1 x2 y x4 x5 x6 x7 x8 x9 x10 x11)
+                   (f1 x3) }) -}
+1cc21fdb0584f13d79694b23f670d84a
+  stargazers_count ::
+    Control.Lens.Type.Lens'
+      Data.Repo.Repo (GHC.Base.Maybe GHC.Integer.Type.Integer)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U,U,U,U)>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ (f :: * -> *)
+                   $dFunctor :: GHC.Base.Functor f
+                   f1 :: GHC.Base.Maybe GHC.Integer.Type.Integer
+                         -> f (GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo x x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ (GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   @ Data.Repo.Repo
+                   (\ y :: GHC.Base.Maybe GHC.Integer.Type.Integer ->
+                    Data.Repo.Repo x x1 x2 x3 y x5 x6 x7 x8 x9 x10 x11)
+                   (f1 x4) }) -}
+a1854958d3b4219bced05353fde5d438
+  subscribers_count ::
+    Control.Lens.Type.Lens'
+      Data.Repo.Repo (GHC.Base.Maybe GHC.Integer.Type.Integer)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U,U,U,U)>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ (f :: * -> *)
+                   $dFunctor :: GHC.Base.Functor f
+                   f1 :: GHC.Base.Maybe GHC.Integer.Type.Integer
+                         -> f (GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo x x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ (GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   @ Data.Repo.Repo
+                   (\ y :: GHC.Base.Maybe GHC.Integer.Type.Integer ->
+                    Data.Repo.Repo x x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 y)
+                   (f1 x11) }) -}
+8dd8fd877ed317b28b4fa10c4b5818f4
+  updated_at ::
+    Control.Lens.Type.Lens'
+      Data.Repo.Repo (GHC.Base.Maybe Data.Repo.Date)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U,U,U,U)>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ (f :: * -> *)
+                   $dFunctor :: GHC.Base.Functor f
+                   f1 :: GHC.Base.Maybe Data.Repo.Date
+                         -> f (GHC.Base.Maybe Data.Repo.Date)
+                   ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo x x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ (GHC.Base.Maybe Data.Repo.Date)
+                   @ Data.Repo.Repo
+                   (\ y :: GHC.Base.Maybe Data.Repo.Date ->
+                    Data.Repo.Repo x y x2 x3 x4 x5 x6 x7 x8 x9 x10 x11)
+                   (f1 x1) }) -}
+7eb986f768058ef3d2bff735e9ebad7b
+  watchers ::
+    Control.Lens.Type.Lens'
+      Data.Repo.Repo (GHC.Base.Maybe GHC.Integer.Type.Integer)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U,U,U,U)>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ (f :: * -> *)
+                   $dFunctor :: GHC.Base.Functor f
+                   f1 :: GHC.Base.Maybe GHC.Integer.Type.Integer
+                         -> f (GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo x x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ (GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   @ Data.Repo.Repo
+                   (\ y :: GHC.Base.Maybe GHC.Integer.Type.Integer ->
+                    Data.Repo.Repo x x1 x2 x3 x4 x5 x6 x7 x8 y x10 x11)
+                   (f1 x9) }) -}
+a14e3bb67438394a437f2c1ceec7cc2d
+  watchers_count ::
+    Control.Lens.Type.Lens'
+      Data.Repo.Repo (GHC.Base.Maybe GHC.Integer.Type.Integer)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U,U,U,U)>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ (f :: * -> *)
+                   $dFunctor :: GHC.Base.Functor f
+                   f1 :: GHC.Base.Maybe GHC.Integer.Type.Integer
+                         -> f (GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   ds :: Data.Repo.Repo ->
+                 case ds of wild { Data.Repo.Repo x x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ (GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   @ Data.Repo.Repo
+                   (\ y :: GHC.Base.Maybe GHC.Integer.Type.Integer ->
+                    Data.Repo.Repo x x1 x2 x3 x4 y x6 x7 x8 x9 x10 x11)
+                   (f1 x5) }) -}
+396805178788ab7c1f98cf5343e6a9e3
+  year :: Data.Repo.Date -> GHC.Integer.Type.Integer
+  RecSel Data.Repo.Date
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLL),1*U(1*U,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Data.Repo.Date ->
+                 case ds of wild { Data.Repo.Date ds1 ds2 ds3 -> ds1 }) -}
+instance GHC.Generics.Constructor [Data.Repo.C1_0Date]
+  = Data.Repo.$fConstructorDate
+instance GHC.Generics.Constructor [Data.Repo.C1_0Repo]
+  = Data.Repo.$fConstructorRepo
+instance GHC.Generics.Datatype [Data.Repo.D1Date]
+  = Data.Repo.$fDatatypeDate
+instance GHC.Generics.Datatype [Data.Repo.D1Repo]
+  = Data.Repo.$fDatatypeRepo
+instance GHC.Classes.Eq [Data.Repo.Date] = Data.Repo.$fEqDate
+instance GHC.Classes.Eq [Data.Repo.Repo] = Data.Repo.$fEqRepo
+instance Data.Aeson.Types.Class.FromJSON [Data.Repo.Date]
+  = Data.Repo.$fFromJSONDate
+instance Data.Aeson.Types.Class.FromJSON [Data.Repo.Repo]
+  = Data.Repo.$fFromJSONRepo
+instance GHC.Generics.Generic [Data.Repo.Date]
+  = Data.Repo.$fGenericDate
+instance GHC.Generics.Generic [Data.Repo.Repo]
+  = Data.Repo.$fGenericRepo
+instance GHC.Base.Monoid [Data.Repo.Repo] = Data.Repo.$fMonoidRepo
+instance GHC.Generics.Selector [Data.Repo.S1_0_0Date]
+  = Data.Repo.$fSelectorDate
+instance GHC.Generics.Selector [Data.Repo.S1_0_1Date]
+  = Data.Repo.$fSelectorDate0
+instance GHC.Generics.Selector [Data.Repo.S1_0_2Date]
+  = Data.Repo.$fSelectorDate1
+instance GHC.Generics.Selector [Data.Repo.S1_0_0Repo]
+  = Data.Repo.$fSelectorRepo
+instance GHC.Generics.Selector [Data.Repo.S1_0_1Repo]
+  = Data.Repo.$fSelectorRepo0
+instance GHC.Generics.Selector [Data.Repo.S1_0_2Repo]
+  = Data.Repo.$fSelectorRepo1
+instance GHC.Generics.Selector [Data.Repo.S1_0_11Repo]
+  = Data.Repo.$fSelectorRepo10
+instance GHC.Generics.Selector [Data.Repo.S1_0_3Repo]
+  = Data.Repo.$fSelectorRepo2
+instance GHC.Generics.Selector [Data.Repo.S1_0_4Repo]
+  = Data.Repo.$fSelectorRepo3
+instance GHC.Generics.Selector [Data.Repo.S1_0_5Repo]
+  = Data.Repo.$fSelectorRepo4
+instance GHC.Generics.Selector [Data.Repo.S1_0_6Repo]
+  = Data.Repo.$fSelectorRepo5
+instance GHC.Generics.Selector [Data.Repo.S1_0_7Repo]
+  = Data.Repo.$fSelectorRepo6
+instance GHC.Generics.Selector [Data.Repo.S1_0_8Repo]
+  = Data.Repo.$fSelectorRepo7
+instance GHC.Generics.Selector [Data.Repo.S1_0_9Repo]
+  = Data.Repo.$fSelectorRepo8
+instance GHC.Generics.Selector [Data.Repo.S1_0_10Repo]
+  = Data.Repo.$fSelectorRepo9
+instance GHC.Show.Show [Data.Repo.Date] = Data.Repo.$fShowDate
+instance GHC.Show.Show [Data.Repo.Repo] = Data.Repo.$fShowRepo
+instance Data.Aeson.Types.Class.ToJSON [Data.Repo.Date]
+  = Data.Repo.$fToJSONDate
+instance Data.Aeson.Types.Class.ToJSON [Data.Repo.Repo]
+  = Data.Repo.$fToJSONRepo
+family instance GHC.Generics.Rep [Data.Repo.Repo]
+  = Data.Repo.Rep_Repo
+family instance GHC.Generics.Rep [Data.Repo.Date]
+  = Data.Repo.Rep_Date
+"SPEC/Data.Repo $dmconFixity @ C1_0Date" [ALWAYS] forall $dConstructor :: GHC.Generics.Constructor
+                                                                            Data.Repo.C1_0Date
+  GHC.Generics.$dmconFixity @ Data.Repo.C1_0Date $dConstructor
+  = Data.Repo.$fConstructorDate_$s$dmconFixity
+"SPEC/Data.Repo $dmconFixity @ C1_0Repo" [ALWAYS] forall $dConstructor :: GHC.Generics.Constructor
+                                                                            Data.Repo.C1_0Repo
+  GHC.Generics.$dmconFixity @ Data.Repo.C1_0Repo $dConstructor
+  = Data.Repo.$fConstructorRepo_$s$dmconFixity
+"SPEC/Data.Repo $dmisNewtype @ D1Date" [ALWAYS] forall $dDatatype :: GHC.Generics.Datatype
+                                                                       Data.Repo.D1Date
+  GHC.Generics.$dmisNewtype @ Data.Repo.D1Date $dDatatype
+  = Data.Repo.$fDatatypeDate_$s$dmisNewtype
+"SPEC/Data.Repo $dmisNewtype @ D1Repo" [ALWAYS] forall $dDatatype :: GHC.Generics.Datatype
+                                                                       Data.Repo.D1Repo
+  GHC.Generics.$dmisNewtype @ Data.Repo.D1Repo $dDatatype
+  = Data.Repo.$fDatatypeRepo_$s$dmisNewtype
+"SPEC/Data.Repo $dmshowsPrec @ Date" [ALWAYS] forall $dShow :: GHC.Show.Show
+                                                                 Data.Repo.Date
+  GHC.Show.$dmshowsPrec @ Data.Repo.Date $dShow
+  = Data.Repo.$fShowDate_$s$dmshowsPrec
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

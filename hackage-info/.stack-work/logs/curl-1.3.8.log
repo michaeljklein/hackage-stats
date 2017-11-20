@@ -1,0 +1,37 @@
+[1 of 1] Compiling Main             ( /private/var/folders/1c/pvtpr33n26142w912r_j2tvw0000gn/T/stack41684/curl-1.3.8/Setup.hs, /private/var/folders/1c/pvtpr33n26142w912r_j2tvw0000gn/T/stack41684/curl-1.3.8/.stack-work/dist/x86_64-osx/Cabal-1.22.5.0/setup/Main.o )
+Linking /private/var/folders/1c/pvtpr33n26142w912r_j2tvw0000gn/T/stack41684/curl-1.3.8/.stack-work/dist/x86_64-osx/Cabal-1.22.5.0/setup/setup ...
+Configuring curl-1.3.8...
+Building curl-1.3.8...
+Preprocessing library curl-1.3.8...
+[1 of 8] Compiling Network.Curl.Debug ( Network/Curl/Debug.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Curl/Debug.o )
+[2 of 8] Compiling Network.Curl.Code ( Network/Curl/Code.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Curl/Code.o )
+[3 of 8] Compiling Network.Curl.Types ( Network/Curl/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Curl/Types.o )
+[4 of 8] Compiling Network.Curl.Info ( Network/Curl/Info.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Curl/Info.o )
+[5 of 8] Compiling Network.Curl.Post ( Network/Curl/Post.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Curl/Post.o )
+[6 of 8] Compiling Network.Curl.Opts ( Network/Curl/Opts.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Curl/Opts.o )
+[7 of 8] Compiling Network.Curl.Easy ( Network/Curl/Easy.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Curl/Easy.o )
+
+Network/Curl/Easy.hs:27:1: Warning: Tab character
+
+Network/Curl/Easy.hs:28:1: Warning: Tab character
+
+Network/Curl/Easy.hs:29:1: Warning: Tab character
+[8 of 8] Compiling Network.Curl     ( Network/Curl.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Curl.o )
+
+Network/Curl.hs:278:1: Warning: Tab character
+
+Network/Curl.hs:291:1: Warning: Tab character
+
+Network/Curl.hs:327:1: Warning: Tab character
+
+Network/Curl.hs:328:1: Warning: Tab character
+
+Network/Curl.hs:329:1: Warning: Tab character
+
+Network/Curl.hs:355:1: Warning: Tab character
+
+Network/Curl.hs:356:1: Warning: Tab character
+In-place registering curl-1.3.8...
+Installing library in
+/Users/michaelklein/.stack/snapshots/x86_64-osx/lts-5.14/7.10.3/lib/x86_64-osx-ghc-7.10.3/curl-1.3.8-9JZlSJNY6JRIY3XmrL566R
+Registering curl-1.3.8...
