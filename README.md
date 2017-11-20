@@ -1,6 +1,7 @@
 # hackage-stats
 Haskell stats and graphs
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fd26dc6984784f3094e3ebe01155e054)](https://www.codacy.com/app/michaeljklein/hackage-stats?utm_source=github.com&utm_medium=referral&utm_content=michaeljklein/hackage-stats&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/michaeljklein/nil-passer.svg?branch=master)](https://travis-ci.org/michaeljklein/nil-passer)
 
 
