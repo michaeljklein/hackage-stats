@@ -93,6 +93,7 @@ parseLine = foldr1 (<|>) [ parseCreated
                          , fmap (const blankRepo) dropLine
                          ]
 
+parseLines :: _
 parseLines = fmap mconcat $ many1 parseLine
 
 

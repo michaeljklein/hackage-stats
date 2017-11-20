@@ -1,11 +1,11 @@
 module Process where
 
-import System.Process
-import System.Exit
-import Network.Curl.Opts
+import Control.Monad
 import Network.Curl
 import Network.Curl.Code
-import Control.Monad
+import Network.Curl.Opts
+import System.Exit
+import System.Process
 
 success :: ExitCode -> a -> Maybe a
 success ExitSuccess x = Just x

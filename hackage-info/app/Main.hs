@@ -1,25 +1,28 @@
 
 module Main where
 
-import System.Environment
-import System.IO
+import Control.Lens
 import Control.Monad
+import Data.Aeson
+import Data.Attoparsec.Text (parseOnly)
 import Data.List
 import Data.Maybe
-import Package
-import Process
-import Mathematica
-import qualified Data.Text as T
 import Data.Repo
-import Control.Lens
+import Mathematica
+import Package
 import Parse
-import Data.Attoparsec.Text (parseOnly)
+import Process
+import System.Environment
+import System.IO
 import qualified Data.ByteString.Lazy as B
-import Data.Aeson
+import qualified Data.Text as T
 
+
+fromBool :: Num a => Bool -> a
 fromBool True = 1
 fromBool _    = 0
 
+numberWithGithub :: _
 numberWithGithub = sum . map (fromBool . hasGithub)
 
 maybeParse :: String -> Maybe Repo

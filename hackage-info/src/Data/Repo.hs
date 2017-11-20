@@ -3,22 +3,25 @@
 
 module Data.Repo where
 
-import GHC.Generics
-import Control.Lens.TH
-import qualified Data.Text as T
 import Control.Applicative
+import Control.Lens.TH
 import Data.Aeson
+import GHC.Generics
+import qualified Data.Text as T
 
 data Date = Date { year  :: Integer
                  , month :: Integer
                  , day   :: Integer
                  } deriving (Eq, Generic)
 
+
 instance Show Date where
   show (Date y m d) = concat [show y, "-", show m, "-", show d]
 
+
 instance ToJSON Date
 instance FromJSON Date
+
 
 data Repo = Repo { _created_at        :: Maybe Date
                  , _updated_at        :: Maybe Date

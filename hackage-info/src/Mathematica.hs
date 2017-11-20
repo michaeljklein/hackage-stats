@@ -22,3 +22,4 @@ toCSV :: [Package] -> String
 toCSV ps = unlines . map convertOne . concatMap packageToArcs $ ps
   where
     convertOne ~(x,y) = show x ++ ";" ++ show y
+

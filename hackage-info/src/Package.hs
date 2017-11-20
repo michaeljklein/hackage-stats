@@ -35,3 +35,5 @@ toPackage x  | isGithub . head $ x = Package (Just . dropGithub . head $ x) (map
 
 parsePackages :: String -> [Package]
 parsePackages = map (toPackage . filter (not . null)) . groupBy (const $ not . null) . lines
+
+
