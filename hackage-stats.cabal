@@ -9,8 +9,8 @@ author:              Michael Klein
 maintainer:          lambdamichael@gmail.com
 copyright:           2016 Michael Klein
 category:            git
--- extra-source-files:
 cabal-version:       >=1.10
+build-type: Simple
 
 library
   hs-source-dirs:      src
