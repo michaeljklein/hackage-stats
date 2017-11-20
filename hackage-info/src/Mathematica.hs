@@ -13,6 +13,7 @@ toMathematicaArcs p = map convertOne . packageToArcs $ p
   where
     convertOne ~(x, y) = "DirectedEdge[" ++ show x ++ ", " ++ show y ++ "]"
 
+toMathematicaList :: Foldable t => t [Char] -> [Char]
 toMathematicaList xs = (init . init $ "{" ++ concatMap (++ ", ") xs) ++ "}"
 
 toMathematicaGraph :: [Package] -> String

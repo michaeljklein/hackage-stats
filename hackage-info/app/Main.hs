@@ -5,7 +5,6 @@ import Control.Lens
 import Control.Monad
 import Data.Aeson
 import Data.Attoparsec.Text (parseOnly)
-import Data.List
 import Data.Maybe
 import Data.Repo
 import Mathematica
@@ -13,7 +12,6 @@ import Package
 import Parse
 import Process
 import System.Environment
-import System.IO
 import qualified Data.ByteString.Lazy as B
 import qualified Data.Text as T
 
@@ -22,7 +20,7 @@ fromBool :: Num a => Bool -> a
 fromBool True = 1
 fromBool _    = 0
 
-numberWithGithub :: _
+numberWithGithub :: [Package] -> Integer
 numberWithGithub = sum . map (fromBool . hasGithub)
 
 maybeParse :: String -> Maybe Repo

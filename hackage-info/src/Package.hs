@@ -21,14 +21,19 @@ makeLenses ''Package
 instance ToJSON Package
 instance FromJSON Package
 
+hasGithub :: Package -> Bool
 hasGithub = isJust . _github
 
+isGithub :: [Char] -> Bool
 isGithub = ("github.com" `isSubsequenceOf`)
 
+toPackageName :: [a] -> [a]
 toPackageName = drop (length "http://hackage.haskell.org/package/")
 
+dropGithub :: [Char] -> [Char]
 dropGithub = drop 2. dropWhile (/= 'm')
 
+toPackage :: [[Char]] -> Package
 toPackage [] = error "All package inputs should be non-empty"
 toPackage x  | isGithub . head $ x = Package (Just . dropGithub . head $ x) (map (drop (length "/package/")) . init . tail $ x) (toPackageName $ last x) Nothing
              | otherwise           = Package (Nothing                     ) (map (drop (length "/package/")) . init        $ x) (toPackageName $ last x) Nothing
