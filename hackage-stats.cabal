@@ -1,4 +1,4 @@
-name:                hackage-info
+name:                hackage-stats
 version:             0.1.0.0
 synopsis:            Get some 
 description:         Please see README.md
@@ -29,7 +29,7 @@ library
                      , text
   default-language:    Haskell2010
 
-executable hackage-info
+executable hackage-stats
   hs-source-dirs:      app
   main-is:             Main.hs
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
@@ -37,7 +37,7 @@ executable hackage-info
                      , aeson
                      , attoparsec
                      , bytestring
-                     , hackage-info
+                     , hackage-stats
                      , lens
                      , text
   default-language:    Haskell2010
@@ -51,7 +51,7 @@ executable hackage-graph
                      , attoparsec
                      , bytestring
                      , containers
-                     , hackage-info
+                     , hackage-stats
                      , lens
                      , text
   default-language:    Haskell2010
